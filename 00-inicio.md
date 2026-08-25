@@ -21,6 +21,7 @@ updated: 2026-08-25
 | Necesidad | Abrir |
 |---|---|
 | Estado y reglas estables | [[docs/ai/PROJECT-MEMORY\|Memoria canónica]] |
+| Comandos persistentes (`GUARDA`) | [[docs/ai/OPERATIONAL-COMMANDS\|Comandos operativos]] |
 | Sistema de marca | [[docs/brand/BRAND-SYSTEM\|Sistema de marca]] |
 | Dirección de arte y montaje | [[vault/06-direccion-de-arte\|Dirección de arte]] |
 | Logos, tipografías y vistas previas | [[vault/02-catalogo-visual\|Catálogo visual]] |
@@ -39,6 +40,7 @@ No sustituir ni aproximar `#602B7A`, `#FFD749`, `#33DFC0` o `#F44C75`. Consulta 
 
 - Algorithmics y NID son sistemas visuales diferentes.
 - IA como herramienta, nunca como estética.
+- `GUARDA` significa persistir correctamente el aprendizaje aprobado en Git y verificar el push remoto.
 - Una corrección puntual no autoriza un rediseño.
 - Conservar fisonomía cuando una fotografía real sea referencia y así se solicite.
 - No inventar datos comerciales, edades, precios, fechas, horarios o sedes.
@@ -54,4 +56,4 @@ No sustituir ni aproximar `#602B7A`, `#FFD749`, `#33DFC0` o `#F44C75`. Consulta 
 - Datos comerciales variables: `PENDING VERIFICATION`.
 
 > [!note] Mantenimiento
-> Si una composición, montaje o prompt se aprueba de forma explícita o repetida, extrae el aprendizaje reusable, clasifica su alcance y actualiza la fuente canónica correspondiente. No pegues chats crudos.
+> Si una composición, montaje o prompt se aprueba de forma explícita o repetida, extrae el aprendizaje reusable, clasifica su alcance y actualiza la fuente canónica correspondiente. No pegues chats crudos. Si el usuario dice `GUARDA`, ejecuta además el flujo persistente definido en [[docs/ai/OPERATIONAL-COMMANDS|Comandos operativos]].
