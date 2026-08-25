@@ -21,6 +21,11 @@ Los prompts **no sustituyen** el sistema de marca. Antes de utilizarlos se leen 
 - `campaigns/roblox-consumer-to-creator.md`: jugador → creador sin copiar estética gamer externa.
 - `campaigns/future-coders.md`: dirección adolescente, programación + IA sutil.
 - `campaigns/tech-kids-open-house.md`: estudiantes + proyectos + aire para Open House/Tech Kids.
+- `campaigns/belief-vs-skills-carousel.md`: prejuicio/percepción → habilidad/evidencia para comunicación con padres.
+
+### Referencias narrativas
+
+La estructura histórica del carrusel Python de 6 láminas vive en `examples/reference/python-six-slide-carousel.md`; no convertir sus antiguos datos comerciales en valores vigentes.
 
 ## Estado
 
