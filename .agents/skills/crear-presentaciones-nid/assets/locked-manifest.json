@@ -1,0 +1,90 @@
+{
+  "algorithm": "sha256",
+  "policy": "Any mismatch rejects the package.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "b576d15ea0620e8583ba619d584883ba4acb9e6979ab0a30c6be7e747f4ceab1"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "23a2a469bb0a5b4fa18fb86561bf8db3a93213caa8a1e1ff5e108390a12c7424"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "37aa3d4fb697f9cc60d4b862815977099e70416836c5679e3823e34fa0cda278"
+    },
+    {
+      "path": "package.json",
+      "sha256": "81322dce4728699a3146e18f38721066b9d2987b8690c56402a890376743375f"
+    },
+    {
+      "path": "references/FORMATO_INMUTABLE.md",
+      "sha256": "1cc46409c432dfdab0c622f483b923b92ba5f941fbbf88173dc66f42e7964d2e"
+    },
+    {
+      "path": "references/PATRONES_POR_MATERIA.md",
+      "sha256": "b7af6eca04b0245f5dd71e1e3a8d183689e099cd7ae263ca3fba50bc7e7d14c2"
+    },
+    {
+      "path": "references/FLUJO_Y_CONTROL_DE_CALIDAD.md",
+      "sha256": "12b2c9782dee0afff013bbae8787a20bba862b4f25795148da5ebeb1607178c4"
+    },
+    {
+      "path": "references/MASTER_PROMPT_GLOBAL.txt",
+      "sha256": "6e020d7e814f78f3cdc5bf06691b1df9667bee3eb437bf7b3359f2ea56539a63"
+    },
+    {
+      "path": "scripts/locked_design_system.mjs",
+      "sha256": "c0bdd9ebf072f83bee46318ad0c96d7d84ce184b0d0eecf51c80057409d8beef"
+    },
+    {
+      "path": "scripts/check_camera_safe.mjs",
+      "sha256": "65f55f409dec81b8dfb951cc0f65d2c2211b104e37dee6d56b07bbaac5ac8c03"
+    },
+    {
+      "path": "scripts/check_build_source.mjs",
+      "sha256": "db47bd9f29f0757392238269053f41a1f73c224a3694f1f24f9e5e43ffd9632b"
+    },
+    {
+      "path": "scripts/verify_locked_system.mjs",
+      "sha256": "6b75495c94e1ab6c59076b69ef8a7ca5abc88b4e04b52454972ea94a05f5d603"
+    },
+    {
+      "path": "assets/brand-lock.json",
+      "sha256": "43a9392c586000594549a701440c6a0f9e9a5024a31d156dc35e5460f5f25b3a"
+    },
+    {
+      "path": "assets/brand/background-branded.png",
+      "sha256": "12922ab91b2ebb633a8108f15511d84928510f45752803dec6b9f6b8c3abb22a"
+    },
+    {
+      "path": "assets/brand/nid-dark.png",
+      "sha256": "e9639051f1c761e26d9f9e8052734e89dd429c24f6c5d3ee1f0eba16bc080b2b"
+    },
+    {
+      "path": "assets/brand/nid-white.png",
+      "sha256": "eb79ad44e271a7dcaccdd045d15f221a9d06d25bd34286d7b7f2a2b38e2f6e85"
+    },
+    {
+      "path": "assets/brand/nid-mask.png",
+      "sha256": "9d569203617818a84d30f1be572ddddc7634413e56002d0b0e406fd7c11c15ea"
+    },
+    {
+      "path": "assets/template.pptx",
+      "sha256": "cedd442923fc250536b8c8d20bd3321a0f90ba3d542f4305e52c3decabf5ff3d"
+    },
+    {
+      "path": "assets/examples/Matematicas_NID_Aprobado.pptx",
+      "sha256": "e977d3c496743b4f56d80ef4799971fd90f708312b8eb75c513c3488e363895b"
+    },
+    {
+      "path": "assets/examples/Biologia_NID_Aprobado.pptx",
+      "sha256": "a8f8f2832c2ec724ca311a919a1ca207c0f9d74638736b55d02da53d452b1934"
+    },
+    {
+      "path": "assets/examples/Literatura_NID_Aprobado.pptx",
+      "sha256": "26685c852359108450ae1d929d45921e88af7b3b28029807e24207494310806a"
+    }
+  ]
+}

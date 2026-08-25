@@ -1,0 +1,17 @@
+{
+  "status": "APPROVED",
+  "source": "Algorithmics master project instruction, 2026-08-25",
+  "colors": {
+    "primary": {
+      "purple": "#602B7A"
+    },
+    "accent": {
+      "turquoise": "#33DFC0",
+      "yellow": "#FFD749"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "black": "#000000"
+    }
+  }
+}

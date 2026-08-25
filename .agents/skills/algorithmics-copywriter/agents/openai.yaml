@@ -1,0 +1,8 @@
+interface:
+  display_name: "Copywriter Algorithmics"
+  short_description: "Copy por audiencia para Algorithmics"
+  brand_color: "#602B7A"
+  default_prompt: "Usa $algorithmics-copywriter para escribir un mensaje Algorithmics adaptado a mi audiencia y objetivo."
+
+policy:
+  allow_implicit_invocation: true

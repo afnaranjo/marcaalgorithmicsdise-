@@ -1,0 +1,8 @@
+interface:
+  display_name: "Campañas Algorithmics"
+  short_description: "Campañas multiformato de Algorithmics"
+  brand_color: "#FFD749"
+  default_prompt: "Usa $algorithmics-campaign-designer para crear una campaña Algorithmics coherente, diferenciada y medible."
+
+policy:
+  allow_implicit_invocation: true

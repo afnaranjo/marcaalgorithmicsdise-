@@ -1,0 +1,70 @@
+{"kind":"deck","id":"pr/zd2o25","name":"Deck"}
+{"kind":"layout","layoutId":"705f4742-55dd-4ef4-8f08-bfbf266cb41c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"fe285149-e921-4415-aae5-f272d67a21b4","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/pxxxh9","slide":1,"title":"MATERIA","textShapes":3}
+{"kind":"shape","id":"sh/w3epkzyh","slide":1,"name":"cover-panel","bbox":[0,0,690,720]}
+{"kind":"textbox","id":"sh/mxc7epgf","slide":1,"name":"cover-subject","text":"MATERIA","textPreview":"MATERIA","textChars":7,"textLines":1,"bbox":[72,110,520,24]}
+{"kind":"textbox","id":"sh/nyl87uh0","slide":1,"name":"cover-title","text":"Título que expresa el aprendizaje","textPreview":"Título que expresa el aprendizaje","textChars":33,"textLines":1,"bbox":[72,176,530,190]}
+{"kind":"textbox","id":"sh/8zupgfyl","slide":1,"name":"cover-subtitle","text":"Una promesa breve y concreta para el estudiante.","textPreview":"Una promesa breve y concreta para el estudiante.","textChars":48,"textLines":1,"bbox":[72,398,520,80]}
+{"kind":"image","id":"im/ixkv2dc3","slide":1,"name":"","alt":"Fondo pastel oficial NID","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/kzmd43ut","slide":1,"name":"","alt":"Logotipo oficial NID","bbox":[72,54,76,34]}
+{"kind":"notes","id":"nt/pxxxh9","slide":1,"text":"Propósito docente: Presentar la promesa de aprendizaje.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}
+{"kind":"slide","id":"sl/rvgm66","slide":2,"title":"MATERIA   ·   TEMA DE LA CLASE   ·   ACTIVACIÓN","textShapes":4}
+{"kind":"shape","id":"sh/l4rmxo36","slide":2,"name":"editorial-canvas","bbox":[24,24,1232,672]}
+{"kind":"textbox","id":"sh/kjilojml","slide":2,"name":"header-2","text":"MATERIA   ·   TEMA DE LA CLASE   ·   ACTIVACIÓN","textPreview":"MATERIA   ·   TEMA DE LA CLASE   ·   ACTIVACIÓN","textChars":47,"textLines":1,"bbox":[72,48,880,20]}
+{"kind":"textbox","id":"sh/adg3ip4j","slide":2,"name":"page-2","text":"02 / 06","textPreview":"02 / 06","textChars":7,"textLines":1,"bbox":[72,662,110,18]}
+{"kind":"textbox","id":"sh/xg7mt43a","slide":2,"name":"hook-title","text":"Formula aquí una pregunta que active conocimientos previos.","textPreview":"Formula aquí una pregunta que active conocimientos previos.","textChars":59,"textLines":1,"bbox":[72,112,1020,58]}
+{"kind":"shape","id":"sh/cfylkzmp","slide":2,"name":"hook-space","bbox":[72,226,890,300]}
+{"kind":"textbox","id":"sh/napknu58","slide":2,"name":"hook-instruction","text":"Coloca un problema, visual o caso breve.\nNo uses este espacio como decoración.","textPreview":"Coloca un problema, visual o caso breve. | No uses este espacio como decoración.","textChars":78,"textLines":2,"bbox":[108,338,818,64]}
+{"kind":"image","id":"im/nix03m18","slide":2,"name":"","alt":"Fondo pastel oficial NID","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/ed4zqhkr","slide":2,"name":"","alt":"Logotipo oficial NID","bbox":[1156,44,76,34]}
+{"kind":"notes","id":"nt/rvgm66","slide":2,"text":"Propósito docente: Activar conocimiento previo sin explicar aún la respuesta.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}
+{"kind":"slide","id":"sl/zbtv3s","slide":3,"title":"MATERIA   ·   TEMA DE LA CLASE   ·   EXPLICACIÓN","textShapes":5}
+{"kind":"shape","id":"sh/9cna5kry","slide":3,"name":"editorial-canvas","bbox":[24,24,1232,672]}
+{"kind":"textbox","id":"sh/obe9cfqd","slide":3,"name":"header-3","text":"MATERIA   ·   TEMA DE LA CLASE   ·   EXPLICACIÓN","textPreview":"MATERIA   ·   TEMA DE LA CLASE   ·   EXPLICACIÓN","textChars":48,"textLines":1,"bbox":[72,48,880,20]}
+{"kind":"textbox","id":"sh/adwrep8j","slide":3,"name":"page-3","text":"03 / 06","textPreview":"03 / 06","textChars":7,"textLines":1,"bbox":[72,662,110,18]}
+{"kind":"textbox","id":"sh/xg7a9kra","slide":3,"name":"explain-title","text":"Escribe una conclusión clara como título.","textPreview":"Escribe una conclusión clara como título.","textChars":41,"textLines":1,"bbox":[72,104,1020,62]}
+{"kind":"textbox","id":"sh/wfy9gzqp","slide":3,"name":"explain-body","text":"Explica la idea central con frases breves.\n\n• Primera evidencia\n• Segunda evidencia\n• Regla o consecuencia","textPreview":"Explica la idea central con frases breves. |  | • Primera evidencia | • Segunda evidencia | • Regla o consecuencia","textChars":106,"textLines":5,"bbox":[72,210,500,286]}
+{"kind":"shape","id":"sh/rilsvq90","slide":3,"name":"explain-visual","bbox":[628,202,556,326]}
+{"kind":"textbox","id":"sh/qhcr2lsf","slide":3,"name":"explain-visual-label","text":"Imagen, diagrama, fórmula o ejemplo","textPreview":"Imagen, diagrama, fórmula o ejemplo","textChars":35,"textLines":1,"bbox":[670,336,472,54]}
+{"kind":"image","id":"im/ze5gvi9w","slide":3,"name":"","alt":"Fondo pastel oficial NID","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/q9cfyd8f","slide":3,"name":"","alt":"Logotipo oficial NID","bbox":[1156,44,76,34]}
+{"kind":"notes","id":"nt/zbtv3s","slide":3,"text":"Propósito docente: Explicar una sola idea mediante texto y evidencia.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}
+{"kind":"slide","id":"sl/phhm4a","slide":4,"title":"MATERIA   ·   TEMA DE LA CLASE   ·   PRÁCTICA GUIADA","textShapes":11}
+{"kind":"shape","id":"sh/hc7yhwr6","slide":4,"name":"editorial-canvas","bbox":[24,24,1232,672]}
+{"kind":"textbox","id":"sh/gbyxoral","slide":4,"name":"header-4","text":"MATERIA   ·   TEMA DE LA CLASE   ·   PRÁCTICA GUIADA","textPreview":"MATERIA   ·   TEMA DE LA CLASE   ·   PRÁCTICA GUIADA","textChars":52,"textLines":1,"bbox":[72,48,880,20]}
+{"kind":"textbox","id":"sh/2d0fq1sr","slide":4,"name":"page-4","text":"04 / 06","textPreview":"04 / 06","textChars":7,"textLines":1,"bbox":[72,662,110,18]}
+{"kind":"textbox","id":"sh/p0rylgri","slide":4,"name":"guided-title","text":"Resuelve primero; después comprueba.","textPreview":"Resuelve primero; después comprueba.","textChars":36,"textLines":1,"bbox":[72,104,1000,58]}
+{"kind":"shape","id":"sh/4zixsbax","slide":4,"name":"guided-card-1","bbox":[72,194,544,172]}
+{"kind":"textbox","id":"sh/r29gn698","slide":4,"name":"guided-number-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[90,212,40,24]}
+{"kind":"textbox","id":"sh/q10zulsn","slide":4,"name":"guided-question-1","text":"Sustituye esta consigna por un ejercicio.","textPreview":"Sustituye esta consigna por un ejercicio.","textChars":41,"textLines":1,"bbox":[138,212,430,96]}
+{"kind":"shape","id":"sh/83ytw3ep","slide":4,"name":"guided-card-2","bbox":[640,194,544,172]}
+{"kind":"textbox","id":"sh/947a58fu","slide":4,"name":"guided-number-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[658,212,40,24]}
+{"kind":"textbox","id":"sh/m1wbutwj","slide":4,"name":"guided-question-2","text":"Sustituye esta consigna por un ejercicio.","textPreview":"Sustituye esta consigna por un ejercicio.","textChars":41,"textLines":1,"bbox":[706,212,430,96]}
+{"kind":"shape","id":"sh/725s3yx4","slide":4,"name":"guided-card-3","bbox":[72,392,544,160]}
+{"kind":"textbox","id":"sh/w7yt03el","slide":4,"name":"guided-number-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[90,410,40,24]}
+{"kind":"textbox","id":"sh/h87a98f6","slide":4,"name":"guided-question-3","text":"Sustituye esta consigna por un ejercicio.","textPreview":"Sustituye esta consigna por un ejercicio.","textChars":41,"textLines":1,"bbox":[138,410,430,96]}
+{"kind":"shape","id":"sh/u5gbydwf","slide":4,"name":"guided-card-4","bbox":[640,392,544,160]}
+{"kind":"textbox","id":"sh/v6ps7ix0","slide":4,"name":"guided-number-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[658,410,40,24]}
+{"kind":"textbox","id":"sh/4vit4neh","slide":4,"name":"guided-question-4","text":"Sustituye esta consigna por un ejercicio.","textPreview":"Sustituye esta consigna por un ejercicio.","textChars":41,"textLines":1,"bbox":[706,410,430,96]}
+{"kind":"image","id":"im/zmt0r610","slide":4,"name":"","alt":"Fondo pastel oficial NID","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/6pkjmlkr","slide":4,"name":"","alt":"Logotipo oficial NID","bbox":[1156,44,76,34]}
+{"kind":"notes","id":"nt/phhm4a","slide":4,"text":"Propósito docente: Aplicar el método con retroalimentación inmediata.\nClave docente: sustituye esta línea por las cuatro respuestas.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}
+{"kind":"slide","id":"sl/w2hzyi","slide":5,"title":"PAUSA PARA PENSAR","textShapes":3}
+{"kind":"shape","id":"sh/lgzato7i","slide":5,"name":"disruptive-background","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/zeh8repc","slide":5,"name":"disruptive-label","text":"PAUSA PARA PENSAR","textPreview":"PAUSA PARA PENSAR","textChars":17,"textLines":1,"bbox":[80,86,500,24]}
+{"kind":"textbox","id":"sh/cb69wzql","slide":5,"name":"disruptive-message","text":"Escribe una frase temática, una moraleja o un humor inteligente.","textPreview":"Escribe una frase temática, una moraleja o un humor inteligente.","textChars":64,"textLines":1,"bbox":[80,200,860,240]}
+{"kind":"textbox","id":"sh/dczqp476","slide":5,"name":"disruptive-prompt","text":"Debe fijar una idea; no puede ser motivación genérica.","textPreview":"Debe fijar una idea; no puede ser motivación genérica.","textChars":54,"textLines":1,"bbox":[80,500,760,42]}
+{"kind":"image","id":"im/fu1kzidg","slide":5,"name":"","alt":"Logotipo oficial NID","bbox":[1156,44,76,34]}
+{"kind":"notes","id":"nt/w2hzyi","slide":5,"text":"Propósito docente: Romper el ritmo y fijar una idea memorable.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}
+{"kind":"slide","id":"sl/wt8bi6","slide":6,"title":"MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE","textShapes":5}
+{"kind":"shape","id":"sh/nml8365k","slide":6,"name":"editorial-canvas","bbox":[24,24,1232,672]}
+{"kind":"textbox","id":"sh/mlc7a14z","slide":6,"name":"header-6","text":"MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE","textPreview":"MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE","textChars":43,"textLines":1,"bbox":[72,48,880,20]}
+{"kind":"textbox","id":"sh/0zup8rmt","slide":6,"name":"page-6","text":"06 / 06","textPreview":"06 / 06","textChars":7,"textLines":1,"bbox":[72,662,110,18]}
+{"kind":"textbox","id":"sh/zyl8zm58","slide":6,"name":"close-title","text":"Cierra con una regla que el estudiante pueda usar.","textPreview":"Cierra con una regla que el estudiante pueda usar.","textChars":50,"textLines":1,"bbox":[72,104,1020,62]}
+{"kind":"shape","id":"sh/yxs76h43","slide":6,"name":"close-rule-card","bbox":[72,214,890,230]}
+{"kind":"textbox","id":"sh/5wnqdgny","slide":6,"name":"close-rule","text":"Si ocurre __________,\nentonces aplica __________.","textPreview":"Si ocurre __________, | entonces aplica __________.","textChars":49,"textLines":2,"bbox":[110,270,814,120]}
+{"kind":"textbox","id":"sh/kve9kvmd","slide":6,"name":"close-action","text":"Termina con una aplicación breve, no con “Gracias”.","textPreview":"Termina con una aplicación breve, no con “Gracias”.","textChars":51,"textLines":1,"bbox":[72,500,860,60]}
+{"kind":"image","id":"im/5krexsju","slide":6,"name":"","alt":"Fondo pastel oficial NID","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/snix8nil","slide":6,"name":"","alt":"Logotipo oficial NID","bbox":[1156,44,76,34]}
+{"kind":"notes","id":"nt/wt8bi6","slide":6,"text":"Propósito docente: Recuperar la regla y transferirla a un caso nuevo.\n[Sources]\n- Identidad visual y logotipo: Activos oficiales incluidos en el paquete NID.\n- Añade aquí la fuente académica verificada.\n- Ejemplos, secuencia y ejercicios: elaboración didáctica propia.\n[/Sources]"}

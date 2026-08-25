@@ -1,0 +1,98 @@
+export const FORMULA_CATALOG = [
+  {
+    kind: "Definición",
+    symbols: "fₓ(a): frecuencia de a · fₘₐₓ: frecuencia mayor · convención: fₘₐₓ>1",
+    method: String.raw`\operatorname{Mo}(X)=\{a:f_X(a)=f_{\max}\},\qquad f_{\max}>1`,
+    answer: String.raw`\operatorname{Mo}(X)=\{5,7\}`,
+  },
+  {
+    kind: "Propiedades",
+    symbols: "b>0, b≠1 · M,N>0 · k: exponente",
+    method: String.raw`\begin{aligned}\log_b(MN)&=\log_b M+\log_b N\\[4pt]\log_b(M^k)&=k\log_b M\end{aligned}`,
+    answer: String.raw`2a+b`,
+  },
+  {
+    kind: "Periodicidad",
+    symbols: "x,θ: ángulos en grados · k∈ℤ: número de periodos",
+    method: String.raw`\tan x=\tan\theta\quad\Longrightarrow\quad x=\theta+180^\circ k`,
+    answer: String.raw`x\in\{120^\circ,300^\circ\}`,
+  },
+  {
+    kind: "Fórmula de distancia",
+    symbols: "P(x₀,y₀,z₀): punto · (A,B,C): vector normal no nulo",
+    method: String.raw`d=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}`,
+    answer: String.raw`d=\frac{5}{3}`,
+  },
+  {
+    kind: "Fórmula de distancia",
+    symbols: "P(x₀,y₀): punto · (A,B): vector normal no nulo",
+    method: String.raw`d=\frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}`,
+    answer: String.raw`d=\frac{2}{\sqrt{13}}`,
+  },
+  {
+    kind: "Forma canónica",
+    symbols: "C(h,k): centro · r>0: radio",
+    method: String.raw`(x-h)^2+(y-k)^2=r^2,\qquad r>0`,
+    answer: String.raw`(x-3)^2+(y+2)^2=9`,
+  },
+  {
+    kind: "Descomposición",
+    symbols: "a,b,c: coeficientes · mn=ac · m+n=b",
+    method: String.raw`ax^2+bx+c=ax^2+mx+nx+c`,
+    answer: String.raw`(5x+1)(2x+3)`,
+  },
+  {
+    kind: "Identidad",
+    symbols: "A: factor común · B,C: cocientes",
+    method: String.raw`AB+AC=A(B+C)`,
+    answer: String.raw`p^3q^3r\left(p^3r-p^5q^2r^2+1\right)`,
+  },
+  {
+    kind: "Teorema",
+    symbols: "c: raíz asociada al factor x−c · P: polinomio",
+    method: String.raw`(x-c)\mid P(x)\quad\Longleftrightarrow\quad P(c)=0`,
+    answer: String.raw`k=5`,
+  },
+  {
+    kind: "Regla descriptiva",
+    symbols: "Regla descriptiva usual; no es una identidad universal",
+    method: String.raw`\begin{aligned}\text{cola derecha}&\Rightarrow \bar{x}\ \text{suele superar a }\operatorname{Med}(X)\\[4pt]\text{cola izquierda}&\Rightarrow \bar{x}\ \text{suele ser menor que }\operatorname{Med}(X)\end{aligned}`,
+    answer: String.raw`\text{usualmente: }\bar{x}>\operatorname{Med}(X)`,
+  },
+  {
+    kind: "Razón trigonométrica",
+    symbols: "θ: ángulo · h: altura · d: distancia horizontal",
+    method: String.raw`\tan\theta=\frac{h}{d}`,
+    answer: String.raw`h=\frac{15(\sqrt{3}+1)}{2}\ \mathrm{m}`,
+  },
+  {
+    kind: "Sustitución",
+    symbols: "b>0, b≠1 · x: exponente · y=bˣ>0",
+    method: String.raw`b^{2x}=(b^x)^2,\qquad y=b^x>0,\qquad b>0,\ b\ne1`,
+    answer: String.raw`x=2`,
+  },
+  {
+    kind: "Rango",
+    symbols: "h: desplazamiento horizontal · k: valor excluido",
+    method: String.raw`f(x)=\frac{a}{x-h}+k,\ a\ne0\quad\Longrightarrow\quad \operatorname{Ran}(f)=\mathbb{R}\setminus\{k\}`,
+    answer: String.raw`\operatorname{Ran}(f)=\mathbb{R}\setminus\{4\}`,
+  },
+  {
+    kind: "Proyección vectorial",
+    symbols: "u: vector proyectado · v≠0: dirección · ‖v‖: norma",
+    method: String.raw`\operatorname{proj}_{\mathbf v}(\mathbf u)=\frac{\mathbf u\cdot\mathbf v}{\lVert\mathbf v\rVert^2}\,\mathbf v,\qquad \mathbf v\ne\mathbf0`,
+    answer: String.raw`\operatorname{proj}_{\mathbf v}(\mathbf u)=(3,0)`,
+  },
+  {
+    kind: "Definición",
+    symbols: "A∖B: elementos de A que no pertenecen a B",
+    method: String.raw`A\setminus B=\{x\in A\mid x\notin B\}`,
+    answer: String.raw`A\setminus B=A`,
+  },
+  {
+    kind: "Fórmula general",
+    symbols: "a,b,c: coeficientes · a≠0 · Δ=b²−4ac: discriminante",
+    method: String.raw`x=\frac{-b\pm\sqrt{b^2-4ac}}{2a},\qquad a\ne0`,
+    answer: String.raw`x=1\pm\sqrt{5}`,
+  },
+];

@@ -1,0 +1,31 @@
+CLASE INGLÉS A1 — VERB TO BE
+
+Fuente gramatical principal:
+- British Council LearnEnglish — Present simple: 'to be'
+  https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple-be
+- Cambridge Dictionary — Be
+  https://dictionary.cambridge.org/grammar/british-grammar/be-
+
+Activos de marca:
+- Fondo NID: reutilizado del sistema maestro del proyecto.
+- Logotipo NID: archivo proporcionado previamente por el usuario.
+- En cada escena con personas se aplica una sola versión pequeña del monograma
+  oficial como capa independiente sobre una prenda. Esta técnica conserva la
+  silueta exacta del logo y evita aproximaciones generadas por IA.
+
+Imágenes generadas con la herramienta integrada imagegen:
+1. cover-classroom.png
+   Clase inicial de inglés con estudiantes latinoamericanos; sujetos a la derecha,
+   espacio negativo a la izquierda; paleta azul-lavanda; sin texto ni logotipos.
+2. meaning-classroom.png
+   Escena coherente con cuatro estudiantes para etiquetar identidad, estado,
+   grupo y ubicación; sin texto ni logotipos.
+3. dialogue.png
+   Dos estudiantes latinoamericanos conversando; espacio para globos de diálogo
+   editables; sin texto ni logotipos.
+4. emma-profile.png
+   Retrato de una estudiante universitaria ficticia; sujeto a la derecha y espacio
+   negativo a la izquierda; sin texto ni logotipos.
+
+Todo el contenido visible, ejemplos, ejercicios y claves docentes es elaboración
+didáctica propia basada en las reglas gramaticales citadas.

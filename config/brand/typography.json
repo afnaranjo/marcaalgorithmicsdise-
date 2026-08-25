@@ -1,0 +1,13 @@
+{
+  "status": "APPROVED",
+  "family": "Montserrat",
+  "filesRoot": "assets/brand/fonts/montserrat",
+  "roles": {
+    "display": [800, 700],
+    "heading": [700],
+    "subheading": [600],
+    "body": [400, 500],
+    "cta": [700, 600]
+  },
+  "note": "Exact sizes by channel remain PENDING VERIFICATION."
+}

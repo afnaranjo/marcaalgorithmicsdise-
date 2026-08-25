@@ -1,0 +1,7 @@
+interface:
+  display_name: "Presentaciones NID bloqueadas"
+  short_description: "Crea clases NID sin cambiar el formato"
+  icon_small: "./assets/brand/nid-dark.png"
+  icon_large: "./assets/brand/nid-dark.png"
+  brand_color: "#091127"
+  default_prompt: "Usa $crear-presentaciones-nid para crear una clase respetando sin excepciones el formato NID y la zona de cámara."

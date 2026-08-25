@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "LOCKED",
+  "slide": {
+    "width": 1280,
+    "height": 720,
+    "ratio": "16:9"
+  },
+  "font": {
+    "family": "Arial",
+    "coverMin": 58,
+    "titleMin": 35,
+    "bodyMin": 16
+  },
+  "cameraSafe": {
+    "x": 998,
+    "y": 556,
+    "w": 238,
+    "h": 134
+  },
+  "canvas": {
+    "x": 24,
+    "y": 24,
+    "w": 1232,
+    "h": 672
+  },
+  "logo": {
+    "x": 1156,
+    "y": 44,
+    "w": 76,
+    "h": 34
+  },
+  "palette": {
+    "navy": "#091127",
+    "navy2": "#18233D",
+    "ink": "#17223B",
+    "muted": "#65738C",
+    "blue": "#2F7ED8",
+    "lavender": "#7E70C9",
+    "cyan": "#35B4C2",
+    "coral": "#F18779",
+    "green": "#48A585",
+    "paleBlue": "#E5EFFB",
+    "paleLavender": "#EEEAFB",
+    "paleCyan": "#E5F6F8",
+    "paleCoral": "#FDEBE8",
+    "paleGreen": "#E8F5F0",
+    "ice": "#F7F9FD",
+    "white": "#FFFFFF",
+    "line": "#DCE4F1"
+  },
+  "immutable": [
+    "slide",
+    "font",
+    "cameraSafe",
+    "canvas",
+    "logo",
+    "palette"
+  ]
+}

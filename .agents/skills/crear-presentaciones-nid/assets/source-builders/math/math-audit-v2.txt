@@ -1,0 +1,37 @@
+AUDITORÍA MATEMÁTICA V2
+
+Alcance:
+- 16 temas.
+- Ejemplos resueltos, cuatro ejercicios guiados y cuatro ejercicios autónomos por tema.
+- Fórmulas canónicas y condiciones de validez.
+
+Verificación independiente:
+- Wolfram Language: expansiones y factorizaciones de trinomios.
+- Wolfram Language: extracción de factor común.
+- Wolfram Language: teorema del factor.
+- Wolfram Language: soluciones reales de ecuaciones exponenciales.
+- Wolfram Language: identidades exactas de ángulos de elevación.
+- Wolfram Language: proyecciones vectoriales.
+- Wolfram Language: soluciones de ecuaciones cuadráticas.
+- Wolfram Language: propiedades logarítmicas de los casos presentados.
+- Wolfram Language: soluciones trigonométricas en 0° ≤ x ≤ 360°.
+- Wolfram Language: distancias punto-plano y punto-recta.
+- Wolfram Language: circunferencias, rangos racionales y diferencias de conjuntos.
+
+Resultado:
+- Todas las comprobaciones simbólicas ejecutadas devolvieron verdadero.
+
+Correcciones de rigor incorporadas:
+- Moda: los datos repetidos se presentan como listas, no como conjuntos.
+- Moda: se explicita la convención de lista amodal cuando la frecuencia máxima es 1.
+- Logaritmos: b>0, b≠1 y argumentos positivos.
+- Circunferencia: r>0.
+- Sesgo: se presenta como tendencia descriptiva usual, no como identidad universal.
+- Exponenciales: b>0 y b≠1.
+- Proyección vectorial: v≠0.
+- Fórmula cuadrática: a≠0.
+- Ejemplo exponencial: se completa y=9 ⇒ 3ˣ=9 ⇒ x=2.
+- Tangente: el intervalo 0° ≤ x ≤ 360° queda explícito en el ejemplo y en ambas prácticas.
+- Distancias: los vectores normales se declaran no nulos.
+- Sesgo: en el caso simétrico se aclara “si ambas existen” para media y mediana.
+- Elevación: se declara la configuración geométrica de puntos alineados, en la misma horizontal y al mismo lado del objeto.

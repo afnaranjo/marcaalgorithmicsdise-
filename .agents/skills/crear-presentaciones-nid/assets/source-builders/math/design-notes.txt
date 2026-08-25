@@ -1,0 +1,24 @@
+Sistema visual:
+- Territorio: editorial académico contemporáneo.
+- Dominante: navy #091127 para profundidad y autoridad.
+- Señal: azul #377FD8 o lavanda #7E70C9, una por diapositiva.
+- Soporte: blanco hielo #F7F9FD y pastel del fondo entregado.
+- Tipografía: Arial por compatibilidad entre renderizadores.
+- Retícula: 72 px de margen interno, composición asimétrica y lectura izquierda-derecha.
+- Ritmo por módulo: método claro → ejemplo claro/oscuro → práctica guiada clara → práctica autónoma oscura.
+- Arquetipos: portada mínima, mapa editorial, ruptura de color plano, método asimétrico, caso resuelto, lista editorial, práctica de alto contraste.
+- Zona segura para cámara: 238 × 134 px, proporción 16:9, en la esquina inferior derecha.
+
+Reglas:
+- Una idea principal por diapositiva.
+- Títulos de 42–50 pt, cuerpo de 18–24 pt.
+- Fórmula principal como evidencia visual, no como texto aproximado.
+- Sin cuadrículas de tarjetas, iconos decorativos, sombras o barras automáticas.
+- La zona de cámara no lleva borde ni marcador; se percibe como aire intencional.
+- Logotipo NID auténtico en todas las diapositivas: oscuro sobre fondos claros y blanco sobre fondos oscuros.
+
+Revisión V2 profesional:
+- La reserva de cámara se limita estrictamente al rectángulo 16:9 inferior derecho; el contenido ocupa el ancho completo por encima de esa zona.
+- Los títulos de práctica son breves y permanecen en una sola línea tanto en LibreOffice como en PowerPoint.
+- Los ejemplos resueltos usan una retícula 2+1: dos pasos arriba y el cierre abajo a la izquierda, sin una columna derecha vacía.
+- Las fórmulas canónicas incluyen sus condiciones de validez y el contenido pasó una auditoría matemática independiente.

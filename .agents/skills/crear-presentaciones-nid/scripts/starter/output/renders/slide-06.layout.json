@@ -1,0 +1,526 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wt8bi6",
+    "id": "wt8bi6",
+    "slide": 6,
+    "layoutId": "fe285149-e921-4415-aae5-f272d67a21b4",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "fe285149-e921-4415-aae5-f272d67a21b4",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5krexsju",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "Fondo pastel oficial NID",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "5e1b3cec-1a36-457c-aeaa-dca8b98e1006",
+        "contentType": "image/png",
+        "byteLength": 703375
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nml8365k",
+      "id": "2",
+      "name": "editorial-canvas",
+      "bbox": [
+        24,
+        24,
+        1232,
+        672
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F7F9FD",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlc7a14z",
+      "id": "3",
+      "name": "header-6",
+      "bbox": [
+        72,
+        48,
+        880,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE",
+      "textPreview": "MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#65738C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#65738C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MATERIA   ·   TEMA DE LA CLASE   ·   CIERRE",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#65738C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/snix8nil",
+      "id": "4",
+      "bbox": [
+        1156,
+        44,
+        76,
+        34
+      ],
+      "alt": "Logotipo oficial NID",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "9e974980-98f5-4397-a379-4d31efe7c1c2",
+        "contentType": "image/png",
+        "byteLength": 1974
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zup8rmt",
+      "id": "5",
+      "name": "page-6",
+      "bbox": [
+        72,
+        662,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "06 / 06",
+      "textPreview": "06 / 06",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Arial",
+        "color": "#65738C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06 / 06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06 / 06",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Arial",
+            "color": "#65738C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06 / 06",
+              "fontSize": 12,
+              "typeface": "Arial",
+              "color": "#65738C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zyl8zm58",
+      "id": "6",
+      "name": "close-title",
+      "bbox": [
+        72,
+        104,
+        1020,
+        62
+      ],
+      "geometry": "rect",
+      "text": "Cierra con una regla que el estudiante pueda usar.",
+      "textPreview": "Cierra con una regla que el estudiante pueda usar.",
+      "resolvedFontSize": 42.69,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Arial",
+        "color": "#091127",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.97,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cierra con una regla que el estudiante pueda"
+          },
+          {
+            "index": 2,
+            "text": "usar."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cierra con una regla que el estudiante pueda usar.",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Arial",
+            "color": "#091127",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cierra con una regla que el estudiante pueda usar.",
+              "fontSize": 44,
+              "typeface": "Arial",
+              "color": "#091127",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxs76h43",
+      "id": "7",
+      "name": "close-rule-card",
+      "bbox": [
+        72,
+        214,
+        890,
+        230
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#091127",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wnqdgny",
+      "id": "8",
+      "name": "close-rule",
+      "bbox": [
+        110,
+        270,
+        814,
+        120
+      ],
+      "geometry": "rect",
+      "text": "Si ocurre __________,\nentonces aplica __________.",
+      "textPreview": "Si ocurre __________, | entonces aplica __________.",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Si ocurre __________,"
+          },
+          {
+            "index": 2,
+            "text": "entonces aplica __________."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Si ocurre __________,",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Si ocurre __________,",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "entonces aplica __________.",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "entonces aplica __________.",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kve9kvmd",
+      "id": "9",
+      "name": "close-action",
+      "bbox": [
+        72,
+        500,
+        860,
+        60
+      ],
+      "geometry": "rect",
+      "text": "Termina con una aplicación breve, no con “Gracias”.",
+      "textPreview": "Termina con una aplicación breve, no con “Gracias”.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "#65738C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Termina con una aplicación breve, no con “Gracias”."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Termina con una aplicación breve, no con “Gracias”.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#65738C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Termina con una aplicación breve, no con “Gracias”.",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#65738C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

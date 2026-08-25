@@ -1,0 +1,320 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/w2hzyi",
+    "id": "w2hzyi",
+    "slide": 5,
+    "layoutId": "fe285149-e921-4415-aae5-f272d67a21b4",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "fe285149-e921-4415-aae5-f272d67a21b4",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "705f4742-55dd-4ef4-8f08-bfbf266cb41c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgzato7i",
+      "id": "1",
+      "name": "disruptive-background",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#091127",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fu1kzidg",
+      "id": "2",
+      "bbox": [
+        1156,
+        44,
+        76,
+        34
+      ],
+      "alt": "Logotipo oficial NID",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "e43f71ba-de5e-4d43-9bec-ed184fab2eef",
+        "contentType": "image/png",
+        "byteLength": 3066
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zeh8repc",
+      "id": "3",
+      "name": "disruptive-label",
+      "bbox": [
+        80,
+        86,
+        500,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PAUSA PARA PENSAR",
+      "textPreview": "PAUSA PARA PENSAR",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#35B4C2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PAUSA PARA PENSAR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PAUSA PARA PENSAR",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#35B4C2",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PAUSA PARA PENSAR",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#35B4C2",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb69wzql",
+      "id": "4",
+      "name": "disruptive-message",
+      "bbox": [
+        80,
+        200,
+        860,
+        240
+      ],
+      "geometry": "rect",
+      "text": "Escribe una frase temática, una moraleja o un humor inteligente.",
+      "textPreview": "Escribe una frase temática, una moraleja o un humor inteligente.",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 56,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Escribe una frase temática, una"
+          },
+          {
+            "index": 2,
+            "text": "moraleja o un humor"
+          },
+          {
+            "index": 3,
+            "text": "inteligente."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Escribe una frase temática, una moraleja o un humor inteligente.",
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Escribe una frase temática, una moraleja o un humor inteligente.",
+              "fontSize": 56,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dczqp476",
+      "id": "5",
+      "name": "disruptive-prompt",
+      "bbox": [
+        80,
+        500,
+        760,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Debe fijar una idea; no puede ser motivación genérica.",
+      "textPreview": "Debe fijar una idea; no puede ser motivación genérica.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Arial",
+        "color": "#E5EFFB",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Debe fijar una idea; no puede ser motivación genérica."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Debe fijar una idea; no puede ser motivación genérica.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#E5EFFB",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Debe fijar una idea; no puede ser motivación genérica.",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#E5EFFB",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

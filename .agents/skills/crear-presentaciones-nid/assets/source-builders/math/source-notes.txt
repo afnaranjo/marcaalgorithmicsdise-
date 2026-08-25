@@ -1,0 +1,20 @@
+Trabajo de comunicación:
+Al terminar, estudiantes de repaso matemático deben reconocer y aplicar 16 métodos porque cada módulo conecta una regla visual, un caso resuelto y práctica gradual.
+
+Fuentes entregadas por el usuario:
+- /Users/afnaranjo/Downloads/Ejercicios.pdf
+- /Users/afnaranjo/Downloads/741258318_1693788871945555_5418664141547494390_n.jpeg
+- /Users/afnaranjo/.codex/attachments/3d7e0fe9-6d9a-4f73-b56f-725437281af1/pasted-text.txt
+
+Decisiones editoriales:
+- Se preserva el fondo pastel azul/lavanda solicitado.
+- El logo oficial permanece protagonista en la portada; en contenido, el fondo funciona como marco para evitar repetir el logo como decoración.
+- Las fórmulas principales y los resultados resueltos se producen desde LaTeX mediante MathJax y se insertan como PNG transparente de alta resolución.
+- Los ejercicios adicionales son elaboración didáctica propia verificada.
+- Punto-plano, punto-recta y teorema del factor usan ejemplos equivalentes completos porque los enunciados originales estaban incompletos o recortados.
+
+Clasificación de evidencia:
+- Contenido base: material entregado por el usuario.
+- Fórmulas: definiciones, propiedades o procedimientos matemáticos estándar.
+- Ejercicios adicionales: elaboración didáctica propia.
+- Fondo y logo: activo proporcionado por el usuario.

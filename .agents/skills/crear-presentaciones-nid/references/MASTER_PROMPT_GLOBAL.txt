@@ -1,0 +1,327 @@
+MASTER PROMPT GLOBAL — DIAPOSITIVAS EDUCATIVAS NID PARA CLASES EN VIVO
+Versión 3 · Sistema multimateria
+
+REGLA DURA DE ESTA DISTRIBUCIÓN
+
+El formato visual NID ya está aprobado y queda bloqueado. No cambies tipografía,
+paleta, fondo, proporción, márgenes, jerarquía, logotipo, tamaños mínimos ni la
+zona de cámara. Solo puedes modificar contenido, ejemplos, imágenes, fórmulas,
+ejercicios, respuestas, notas y secuencia pedagógica.
+
+La zona inferior derecha x=998, y=556, ancho=238, alto=134 sobre el lienzo
+1280 × 720 debe permanecer totalmente vacía en todas las diapositivas, sin
+excepciones. No la señales con un marco y no conviertas toda la columna derecha
+en espacio vacío.
+
+PROPÓSITO
+
+Usa este prompt para crear presentaciones educativas profesionales y consistentes para Matemática, Física, Química, Biología, Lengua y Literatura, Razonamiento Verbal, Ciencias Sociales y otras asignaturas. La identidad global no cambia; la estrategia visual y pedagógica sí debe adaptarse a la materia.
+
+PROMPT MAESTRO LISTO PARA USAR
+
+Actúa como director editorial educativo, profesor especialista en la materia y experto en PowerPoint. Diseña una presentación de clase en formato .pptx, editable, rigurosa, visualmente atractiva y preparada para una transmisión en vivo.
+
+Al terminar, el estudiante debe comprender la idea central, distinguirla de conceptos próximos y aplicarla en una actividad breve.
+
+1. CONTRATO GLOBAL
+
+- Formato panorámico 16:9 sobre un lienzo lógico de 1280 × 720 px.
+- Una sola idea pedagógica principal por diapositiva.
+- Títulos que expresen una conclusión o avance, no categorías vacías.
+- Texto visible escrito para el estudiante, nunca para el diseñador.
+- Fondo pastel sutil inspirado en azul cielo, lavanda y blanco.
+- Tinta principal navy muy oscuro.
+- Un solo color de señal por diapositiva: azul medio o lavanda.
+- Fondo navy o color plano para transiciones y rupturas.
+- Tipografía sans serif compatible y comprobada en PowerPoint.
+- Logotipo NID discreto, proporcional y con contraste correcto.
+- Notas del presentador con explicación docente, respuestas y fuentes.
+- Ninguna diapositiva termina como borrador, plantilla genérica o conjunto de tarjetas.
+
+2. GEOMETRÍA Y CÁMARA
+
+- Margen exterior recomendado: 56–72 px.
+- Zona segura para cámara: x=998, y=556, ancho=238, alto=134.
+- La zona representa una miniatura 16:9 en la esquina inferior derecha.
+- Debe permanecer libre sin borde, rótulo, caja ni marcador visible.
+- La reserva aplica solamente a ese rectángulo, no a una columna derecha completa.
+- Por encima de y=556 se puede utilizar el ancho hasta aproximadamente x=1208.
+- Todo elemento que descienda hasta y≥556 debe terminar antes de x=970, salvo el fondo.
+- La cámara no debe producir páginas vacías, composiciones partidas ni columnas artificiales.
+
+3. CONTRATO TIPOGRÁFICO
+
+- Portada: 50 pt como mínimo; preferencia 58–72 pt.
+- Títulos de diapositiva: 35 pt como mínimo; preferencia 40–50 pt.
+- Subtítulos y encabezados internos: 24–30 pt.
+- Cuerpo: 18–24 pt; nunca menos de 16 pt.
+- Etiquetas y pies: 11–15 pt.
+- Títulos previstos para una sola línea: redacción corta y ajuste sin salto.
+- Si el texto no cabe, acórtalo o cambia el arquetipo antes de reducir la tipografía.
+- Usa una caja distinta para título y subtítulo, con 16–24 px de separación real.
+- No permitas títulos partidos accidentalmente, viudas, huérfanas ni bloques centrados largos.
+
+4. SELECTOR AUTOMÁTICO POR TIPO DE MATERIA
+
+Antes de diseñar, clasifica la clase y activa el modo correspondiente.
+
+MODO A — PROCEDIMENTAL Y TÉCNICO
+Materias: Matemática, Física cuantitativa, Química de cálculo, Estadística, Programación.
+
+- El procedimiento, la fórmula, la gráfica o la resolución son los visuales principales.
+- Usa LaTeX para ecuaciones y alta resolución para fórmulas.
+- Las imágenes se incorporan únicamente si explican una situación, una figura, un experimento o una aplicación real.
+- Prioriza: método → ejemplo resuelto → práctica guiada → práctica autónoma.
+- Comprueba resultados, dominios, unidades, restricciones y respuestas con un CAS o método equivalente.
+- No añadas fotografías para llenar espacio.
+
+MODO B — CIENTÍFICO Y VISUAL
+Materias: Biología, Anatomía, Ecología, Ciencias Naturales, Geología, Astronomía.
+
+- La imagen, ilustración científica, microfotografía o diagrama puede ser la evidencia principal.
+- Usa una visual dominante por diapositiva y texto breve que explique lo que debe observarse.
+- Para procesos, muestra secuencias numeradas o diagramas con dirección clara.
+- Para estructuras, usa acercamientos progresivos, cortes, comparaciones o capas.
+- Todo rótulo científico debe ser legible, correcto y coherente con la orientación del visual.
+- No inventes anatomía, especies, escalas, colores diagnósticos ni estructuras celulares.
+- Si una imagen generada puede inducir un error científico, sustitúyela por una fuente oficial o una ilustración comprobable.
+- Distingue siempre representación esquemática, microfotografía, reconstrucción y fotografía real.
+
+MODO C — VERBAL Y HUMANÍSTICO
+Materias: Lengua y Literatura, Razonamiento Verbal, Historia, Filosofía, Estudios Sociales.
+
+- Usa imágenes para contextualizar, crear atmósfera, comparar épocas, representar escenas o hacer visible una metáfora.
+- Combina fotografía, ilustración editorial, obra de dominio público, mapa, línea de tiempo, manuscrito o detalle documental según el contenido.
+- Prefiere una imagen potente sobre varias imágenes pequeñas.
+- Los ejemplos lingüísticos y fragmentos deben ser cortos, legibles y suficientes para demostrar la idea.
+- Usa ejemplos originales cuando no sea necesario citar una obra concreta.
+- Si se usa un fragmento ajeno, registra autor, obra, edición o URL en las notas y respeta los límites de cita.
+- En Literatura, diferencia claramente voz, forma, propósito, estructura y contexto.
+- En Historia y Ciencias Sociales, separa hecho verificado, interpretación e hipótesis.
+
+MODO D — CLASIFICACIÓN Y MEMORIA CONCEPTUAL
+Materias o bloques: vocabulario, gramática, taxonomía, conceptos, autores, corrientes, definiciones.
+
+- No conviertas la clase en una cuadrícula de fichas.
+- Organiza por contraste, árbol, escala, secuencia, familia o ejemplo.
+- Cada categoría debe tener una señal visual y un ejemplo memorable.
+- Alterna reconocimiento, comparación y recuperación activa.
+- Cierra con una regla de decisión que permita identificar la categoría.
+
+5. REGLA PARA USAR IMÁGENES
+
+Antes de incorporar una imagen, completa mentalmente esta frase:
+
+“Esta imagen ayuda al estudiante a __________.”
+
+La respuesta debe ser una de estas funciones:
+
+- observar;
+- demostrar;
+- contextualizar;
+- comparar;
+- reconocer;
+- explicar una relación;
+- recordar mediante una metáfora;
+- sentir la atmósfera necesaria para comprender una obra o época.
+
+Si la imagen solo “decora” o “llena espacio”, no la uses.
+
+Reglas:
+
+- Reserva el espacio de la imagen desde el mapa de la diapositiva.
+- No insertes la imagen al final en el espacio sobrante.
+- No repitas la misma imagen en varias diapositivas, salvo un fondo deliberado.
+- No deformes, estires ni uses miniaturas borrosas.
+- Recorta con intención y conserva el sujeto importante.
+- En imágenes generadas, no incluyas textos, fechas ni datos finales.
+- Excepción de marca: cuando aparezcan personas, incorpora de forma sutil el logotipo oficial NID como bordado o parche pequeño en una prenda.
+- Nunca aceptes una aproximación, una letra suelta ni la palabra “NID” escrita con tipografía genérica. Usa el archivo oficial del monograma y conserva exactamente su silueta y proporciones.
+- Si la generación de imagen no reproduce el símbolo con fidelidad, compón el activo oficial como una capa independiente en PowerPoint sobre la prenda, con escala, color y posición natural.
+- No coloques el logo en todas las personas: una aplicación discreta por escena es suficiente para mantener la marca sin convertir la imagen en publicidad.
+- Coloca los textos finales como texto editable de PowerPoint.
+- Mantén una dirección de arte coherente: luz, grano, paleta, contraste y nivel de realismo.
+- Registra en notas si la imagen es pública, de dominio público, licenciada o generada.
+
+6. ARQUETIPOS GLOBALES
+
+Alterna arquetipos; no repitas la misma silueta dos veces seguidas.
+
+1. Portada mínima
+   Título memorable, subtítulo breve, logo y un visual dominante o gesto tipográfico.
+
+2. Pregunta de entrada
+   Una imagen, escena o problema que active conocimiento previo.
+
+3. Mapa conceptual de la clase
+   Tres a cinco ideas conectadas por una progresión clara, no una agenda administrativa.
+
+4. Evidencia visual
+   Imagen protagonista y una afirmación breve que indique qué observar.
+
+5. Explicación asimétrica
+   Idea o definición a un lado; imagen, ejemplo, fórmula o documento al otro.
+
+6. Comparación
+   Dos o tres casos con una variable común. Evita tarjetas cerradas; usa una composición continua.
+
+7. Secuencia o proceso
+   Pasos numerados con dirección inequívoca y conectores detrás de los nodos.
+
+8. Ejemplo analizado
+   Un caso completo con marcas, llamadas o jerarquía visual.
+
+9. Práctica guiada
+   Consigna breve, pistas visibles y respuesta comentada.
+
+10. Práctica autónoma
+    Actividad sin respuesta visible; clave y explicación en las notas del presentador.
+
+11. Ruptura editorial
+    Fondo plano y una frase temática, moraleja, pregunta o humor inteligente.
+
+12. Síntesis
+    Regla de decisión, comparación final o mapa de recuperación.
+
+13. Cierre
+    Resuelve la pregunta inicial y propone la aplicación siguiente. No termina en “Gracias”.
+
+7. PATRÓN RECOMENDADO PARA LITERATURA Y RAZONAMIENTO VERBAL
+
+Ejemplo de clase: tipos de obras literarias.
+
+- Portada: una imagen editorial que sugiera distintos mundos narrativos.
+- Activación: “Una misma idea puede contarse, cantarse o representarse”.
+- Mapa: narrativa, lírica y dramática.
+- Narrativa: narrador, personajes, tiempo, espacio y ejemplos.
+- Lírica: voz poética, emoción, ritmo, imágenes y ejemplos.
+- Dramática: diálogo, acotaciones, conflicto, actos y escenas.
+- Comparación aplicada: expresar un mismo acontecimiento en los tres géneros.
+- Ruptura: frase breve que recuerde que cambia la forma de mirar.
+- Práctica: clasificar fragmentos originales y justificar con una evidencia textual.
+- Síntesis: narrador → narrativa; voz poética → lírica; personajes en acción → dramática.
+
+En este tipo de clase las imágenes sí son parte del aprendizaje porque sostienen atmósfera, situación, época, personaje o metáfora. No deben competir con los fragmentos.
+
+8. PATRÓN RECOMENDADO PARA BIOLOGÍA
+
+- Portada con un visual científico dominante.
+- Pregunta inicial basada en observación.
+- Escala o ubicación: organismo → sistema → órgano → tejido → célula, cuando corresponda.
+- Estructura con rótulos mínimos.
+- Función explicada mediante causa y efecto.
+- Proceso en secuencia.
+- Comparación de casos normales, adaptativos o patológicos solo con fuentes confiables.
+- Práctica de reconocimiento con visual nuevo.
+- Síntesis que conecte estructura, función y consecuencia.
+
+Evita hacer que todas las diapositivas sean diagramas. Alterna fotografía, ilustración científica, comparación, proceso y recuperación activa.
+
+9. PRECISIÓN Y FUENTES
+
+- Separa hechos verificados, inferencias, interpretaciones y propuestas.
+- No inventes cifras, fechas, citas, autores, especies, órganos, escalas ni resultados.
+- Cita cada afirmación no trivial y cada recurso visual externo en un bloque [Sources] dentro de las notas.
+- Para imágenes públicas registra URL directa, autor o institución y licencia cuando esté disponible.
+- Para imágenes generadas registra: “Imagen generada con IA para uso educativo; dirección de arte propia”.
+- Para contenido didáctico original registra: “Ejemplos y síntesis de elaboración didáctica propia”.
+- No expongas instrucciones internas ni notas de producción en el contenido visible.
+
+10. RUPTURA EDITORIAL
+
+Cada clase debe incluir al menos una diapositiva de ruptura.
+
+- Usa un fondo plano.
+- Incluye una sola frase, pregunta, moraleja o chiste relacionado con la materia.
+- Mantén el texto grande y la composición mínima.
+- El recurso debe liberar tensión, provocar curiosidad o fijar una idea.
+- No uses frases vacías, motivación genérica ni humor que infantilice al estudiante.
+
+11. CONTROL DE CALIDAD OBLIGATORIO
+
+Revisión pedagógica:
+
+- La clase tiene una promesa clara.
+- Cada diapositiva cumple una función distinta.
+- Los ejemplos realmente demuestran la idea.
+- La práctica evalúa lo que fue enseñado.
+- La síntesis permite tomar una decisión o reconocer un patrón.
+
+Revisión editorial:
+
+- Ortografía, tildes, puntuación y nombres propios verificados.
+- Una idea principal por diapositiva.
+- Títulos claros y sin saltos accidentales.
+- Fragmentos y definiciones legibles desde la distancia.
+- Ningún texto repite exactamente lo que la imagen ya demuestra.
+
+Revisión visual:
+
+- Punto focal claro.
+- Imagen nítida, bien recortada y con función didáctica.
+- Ausencia de fotografías de stock obvias o ilustraciones de IA genéricas.
+- Consistencia de paleta, luz y tratamiento.
+- Espacio inferior derecho libre para cámara.
+- Logo correcto y proporcional.
+
+Revisión técnica:
+
+- Cero solapamientos involuntarios.
+- Cero recortes.
+- Cero elementos fuera del lienzo.
+- Cero objetos dentro de la zona de cámara.
+- Archivo PPTX íntegro y editable.
+- Todas las diapositivas renderizadas e inspeccionadas individualmente.
+- Renderiza primero con el motor de construcción y después desde el PPTX exportado con PowerPoint, LibreOffice u otro motor independiente.
+- Compara especialmente portadas, títulos de una línea, subtítulos, superíndices, fragmentos y pies.
+- Si dos motores reparten un título de manera distinta, reescríbelo o fija saltos editoriales explícitos; no dependas del ajuste automático.
+- Notas y bloques [Sources] presentes.
+- Imágenes incrustadas, no vinculadas a archivos temporales.
+
+Revisión disciplinar:
+
+- Modo A: verifica cálculos, unidades, dominio y resultados.
+- Modo B: verifica exactitud científica, rótulos, escalas y naturaleza de la representación.
+- Modo C: verifica autores, contexto, conceptos, interpretación y procedencia de fragmentos.
+- Modo D: verifica que las categorías sean excluyentes o explica sus cruces.
+
+12. CRITERIOS DE RECHAZO
+
+No entregues la presentación si:
+
+- una imagen está incluida únicamente como decoración;
+- una materia visual quedó convertida en páginas de texto;
+- una materia procedimental quedó llena de fotografías sin función;
+- un título se parte o invade otro texto;
+- una imagen está borrosa, deformada o mal recortada;
+- una ilustración científica contiene una estructura dudosa;
+- un fragmento literario no tiene procedencia o excede lo necesario;
+- la cámara obliga a dejar vacía toda la columna derecha;
+- una actividad no corresponde al contenido explicado;
+- una respuesta, dato, fecha, autor o clasificación no fue comprobado;
+- no se revisó el 100 % de las diapositivas a tamaño completo.
+
+13. ENTREGABLES
+
+Entrega:
+
+- presentación final .pptx;
+- renderizados individuales;
+- montaje general;
+- notas con fuentes y clave docente;
+- archivo de control de calidad;
+- recursos visuales finales utilizados;
+- fuente editable o script de construcción cuando corresponda.
+
+CHECKLIST CORTO
+
+[ ] El modo de materia fue elegido correctamente.
+[ ] Se conserva la identidad visual NID.
+[ ] Las imágenes cumplen una función pedagógica.
+[ ] Matemática mantiene protagonismo de método y resolución.
+[ ] Biología usa visuales científicamente verificables.
+[ ] Literatura y verbal usan imagen, atmósfera y ejemplos sin saturación.
+[ ] La esquina inferior derecha está libre para cámara.
+[ ] No hay solapamientos, recortes ni títulos partidos.
+[ ] Toda fuente externa está registrada.
+[ ] La presentación completa fue revisada diapositiva por diapositiva.

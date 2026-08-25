@@ -1,0 +1,8 @@
+interface:
+  display_name: "Social Media Algorithmics"
+  short_description: "Posts, carruseles, stories y reels"
+  brand_color: "#33DFC0"
+  default_prompt: "Usa $algorithmics-social-media para desarrollar una pieza social de Algorithmics lista para producir."
+
+policy:
+  allow_implicit_invocation: true

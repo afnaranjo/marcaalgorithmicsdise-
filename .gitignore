@@ -1,0 +1,40 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+private/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.local.json
+
+# Logs, caches and temporary work
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.validator-deps/
+.skill-staging/
+*.tmp
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Builds
+dist/
+build/

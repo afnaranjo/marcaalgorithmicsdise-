@@ -1,0 +1,8 @@
+interface:
+  display_name: "Diseñador de marca Algorithmics"
+  short_description: "Identidad y piezas visuales Algorithmics"
+  brand_color: "#602B7A"
+  default_prompt: "Usa $algorithmics-brand-designer para convertir mi pedido en una pieza visual fiel a la marca Algorithmics."
+
+policy:
+  allow_implicit_invocation: true
