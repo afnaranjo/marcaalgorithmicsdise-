@@ -11,6 +11,23 @@ Antes de una tarea importante de Algorithmics, revisar la versión vigente del r
 
 El repositorio está confirmado como `PRIVATE` y la app conectada tiene permisos de escritura. Esto no autoriza a incorporar secretos, datos personales o imágenes de menores sin revisar alcance y consentimiento.
 
+## Comando persistente `GUARDA` — GLOBAL
+
+Dentro del proyecto Algorithmics, cuando el usuario diga **“guarda”**, **“guárdalo”**, **“guarda esto”** o una instrucción equivalente sobre un diseño, prompt, montaje, composición, carrusel, regla o decisión aprobada, significa **persistirlo correctamente en el repositorio canónico y hacer push**, no solo recordarlo dentro del chat.
+
+El flujo detallado vive en `docs/ai/OPERATIONAL-COMMANDS.md`.
+
+Aplicación:
+
+- revisar primero Git y hacer match con lo existente;
+- complementar la fuente adecuada, no duplicar;
+- elegir si corresponde guardar una regla, prompt, receta de montaje, patrón, ejemplo o asset autorizado;
+- si hay menores, datos o licencias restringidas, guardar el aprendizaje reusable y no subir automáticamente el archivo sensible;
+- hacer commit y push cuando exista acceso de escritura;
+- verificar el hash remoto antes de afirmar que quedó guardado.
+
+Objetivo: que una aprobación realizada desde escritorio, móvil u otro chat pueda quedar disponible para futuros agentes/chats que consulten la fuente viva.
+
 ## Identidad — GLOBAL
 
 - Marca: Algorithmics — The international school of programming.
