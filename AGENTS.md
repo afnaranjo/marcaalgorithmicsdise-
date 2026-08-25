@@ -10,10 +10,11 @@ Antes de trabajar:
 2. Usa `00-inicio.md` como panel del vault y mapa de acceso rápido.
 3. Lee `README.md`.
 4. Lee `docs/ai/PROJECT-MEMORY.md`.
-5. Lee `docs/brand/BRAND-SYSTEM.md`, `COLORS.md`, `TYPOGRAPHY.md` y `LOGO-USAGE.md`.
-6. Lee `docs/brand/GRAPHIC-LANGUAGE.md` y, para trabajo visual, `ART-DIRECTION.md`, `COMPOSITION-AND-MONTAGE.md` y `ANTI-AI-AESTHETIC.md`.
-7. Lee `docs/content/VOICE-AND-TONE.md` y `AUDIENCES.md`.
-8. Carga solo la ficha de programa, workflow, skill, prompt, plantilla o ejemplo que corresponda.
+5. Lee `docs/ai/OPERATIONAL-COMMANDS.md` para interpretar comandos persistentes como `GUARDA`.
+6. Lee `docs/brand/BRAND-SYSTEM.md`, `COLORS.md`, `TYPOGRAPHY.md` y `LOGO-USAGE.md`.
+7. Lee `docs/brand/GRAPHIC-LANGUAGE.md` y, para trabajo visual, `ART-DIRECTION.md`, `COMPOSITION-AND-MONTAGE.md` y `ANTI-AI-AESTHETIC.md`.
+8. Lee `docs/content/VOICE-AND-TONE.md` y `AUDIENCES.md`.
+9. Carga solo la ficha de programa, workflow, skill, prompt, plantilla o ejemplo que corresponda.
 
 ## Fuentes canónicas y prioridad
 
@@ -24,6 +25,7 @@ Antes de trabajar:
 - Explicación de marca: `docs/brand/`.
 - Logos oficiales: `assets/brand/logos/`.
 - Memoria estable: `docs/ai/PROJECT-MEMORY.md`.
+- Comandos operativos: `docs/ai/OPERATIONAL-COMMANDS.md`.
 - Prompts validados: `prompts/`.
 - Ejemplos curados: `examples/`.
 - Datos variables: confirmar en una fuente autorizada antes de publicar.
@@ -129,6 +131,22 @@ Una aprobación puntual no se convierte automáticamente en regla global.
 - Antes de publicar revisa diff, secretos, licencias y privacidad.
 - No uses force-push, `git reset --hard` o limpieza destructiva para resolver conflictos desconocidos.
 - No hagas commit o push sin que la tarea lo autorice.
+- **Excepción explícita:** dentro de Algorithmics, cuando el usuario diga `GUARDA`, la tarea queda autorizada para integrar el aprendizaje aprobado en el repositorio, hacer commit, push y verificar el remoto siguiendo `docs/ai/OPERATIONAL-COMMANDS.md`.
+
+## Comando persistente `GUARDA`
+
+`GUARDA` significa **persistir en Git**, no solo recordar en la conversación.
+
+Antes de publicar:
+
+1. hacer match con lo existente;
+2. complementar, no duplicar;
+3. guardar el nivel correcto: regla, prompt, composición, patrón, ejemplo o asset autorizado;
+4. proteger menores, datos y licencias;
+5. hacer commit/push;
+6. verificar el hash remoto antes de confirmar que quedó guardado.
+
+La finalidad es que una aprobación realizada desde escritorio, móvil u otro chat quede disponible para futuros agentes/chats que consulten la fuente viva.
 
 ## Memoria y decisiones
 
