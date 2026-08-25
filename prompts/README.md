@@ -22,6 +22,7 @@ Los prompts **no sustituyen** el sistema de marca. Antes de utilizarlos se leen 
 - `campaigns/future-coders.md`: dirección adolescente, programación + IA sutil.
 - `campaigns/tech-kids-open-house.md`: estudiantes + proyectos + aire para Open House/Tech Kids.
 - `campaigns/belief-vs-skills-carousel.md`: prejuicio/percepción → habilidad/evidencia para comunicación con padres.
+- `campaigns/birthday-greeting.md`: **primera propuesta por defecto para cumpleaños Algorithmics**; fondo amarillo oficial, estudiante real como ancla, composición editorial asimétrica y sistema pixel/voxel controlado con Montserrat como tipografía principal.
 
 ### Referencias narrativas
 
