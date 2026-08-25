@@ -16,6 +16,9 @@ Los cambios significativos del sistema se registran aquí.
 - Vault de Obsidian en la raíz del repositorio con panel de inicio, catálogo visual, memoria operativa, plantillas y bitácora.
 - Catálogo técnico de logos, tipografías y presentaciones NID en `config/assets/catalog.json`.
 - Bandeja `assets/inbox/` para clasificar nuevos recursos antes de incorporarlos al sistema oficial.
+- Paleta Algorithmics de cuatro colores fijada como regla dura con Pantone, HEX, RGB, HSB y CMYK aprobado desde capturas.
+- Frambuesa `PANTONE 184 C` / `#F44C75` incorporada a tokens, memoria, catálogo y validadores.
+- Revisión separada del manual HTML para conservarlo como guía sin elevar automáticamente sus demás contenidos a reglas oficiales.
 
 ### Changed
 

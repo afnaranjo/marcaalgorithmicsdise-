@@ -1,17 +1,70 @@
 {
+  "version": "2.0.0",
   "status": "APPROVED",
-  "source": "Algorithmics master project instruction, 2026-08-25",
+  "ruleLevel": "HARD",
+  "scope": "GLOBAL_ALGORITHMICS",
+  "source": {
+    "authority": "User-provided color captures and explicit confirmation, 2026-08-25",
+    "guide": "Manual_de_Marca_Algorithmics.html reviewed as REFERENCE_ONLY, 2026-08-25",
+    "precedence": "User-provided color captures override guide values when they differ"
+  },
   "colors": {
     "primary": {
       "purple": "#602B7A"
     },
     "accent": {
+      "yellow": "#FFD749",
       "turquoise": "#33DFC0",
-      "yellow": "#FFD749"
+      "raspberry": "#F44C75"
     },
     "neutral": {
       "white": "#FFFFFF",
       "black": "#000000"
     }
-  }
+  },
+  "specifications": {
+    "purple": {
+      "name": "Púrpura Oscuro",
+      "role": "primary",
+      "pantone": "7664 C",
+      "hex": "#602B7A",
+      "rgb": [96, 43, 122],
+      "hsb": [279, 64, 47],
+      "cmykCapture": [77, 97, 12, 3]
+    },
+    "yellow": {
+      "name": "Amarillo Septiembre",
+      "role": "complementary",
+      "pantone": "122 C",
+      "hex": "#FFD749",
+      "rgb": [255, 215, 73],
+      "hsb": [46, 70, 100],
+      "cmykCapture": [1, 15, 78, 0]
+    },
+    "turquoise": {
+      "name": "Menta Fresca",
+      "role": "complementary",
+      "pantone": "333 C",
+      "hex": "#33DFC0",
+      "rgb": [51, 223, 192],
+      "hsb": [168, 76, 87],
+      "cmykCapture": [62, 0, 38, 0]
+    },
+    "raspberry": {
+      "name": "Frambuesa",
+      "role": "complementary",
+      "pantone": "184 C",
+      "hex": "#F44C75",
+      "rgb": [244, 76, 117],
+      "hsb": [344, 68, 95],
+      "cmykCapture": [0, 82, 31, 0]
+    }
+  },
+  "rules": [
+    "Do not replace, approximate, recolor, or silently alter the four approved colors",
+    "Use Pantone identifiers for spot-color print specifications",
+    "Use exact HEX or RGB values for digital work",
+    "Use cmykCapture values as the approved process-color reference until a printer ICC profile is specified",
+    "White and black are contrast neutrals, not substitutes for the four brand colors"
+  ]
 }

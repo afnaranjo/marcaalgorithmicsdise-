@@ -7,7 +7,8 @@ Actualizado: 2026-08-25
 
 - Marca: Algorithmics — The international school of programming.
 - Tipografía principal: Montserrat.
-- Paleta base de trabajo: morado `#602B7A`, turquesa `#33DFC0`, amarillo `#FFD749`.
+- Regla dura de color Algorithmics: Púrpura Oscuro `PANTONE 7664 C` / `#602B7A`, Amarillo Septiembre `PANTONE 122 C` / `#FFD749`, Menta Fresca `PANTONE 333 C` / `#33DFC0` y Frambuesa `PANTONE 184 C` / `#F44C75`.
+- No sustituir, aproximar ni alterar estos cuatro colores. Las capturas aprobadas prevalecen sobre conversiones distintas del manual HTML de referencia.
 - Los archivos entregados por el usuario en `assets/brand/` son las fuentes visuales oficiales disponibles en este repositorio.
 - Si aparece un manual corporativo autorizado con valores distintos, prevalece tras documentar la decisión.
 
@@ -41,6 +42,7 @@ Se reconocen como líneas recurrentes Scratch, Python, Roblox, Future Coders, Ma
 - Presentaciones educativas NID: `.agents/skills/crear-presentaciones-nid/`; conserva una identidad separada y bloqueada.
 - La raíz del repositorio es el vault de Obsidian. Su entrada es `00-inicio.md`; el catálogo visual está en `vault/02-catalogo-visual.md` y el catálogo técnico en `config/assets/catalog.json`.
 - Los recursos nuevos permanecen en `assets/inbox/` hasta verificar origen, licencia, privacidad, duplicados y alcance.
+- La revisión del manual HTML está en `docs/brand/MANUAL-REVIEW.md`; solo sus coincidencias de color fueron promovidas a regla, no el resto de sus afirmaciones.
 
 ## Decisiones pendientes
 

@@ -40,13 +40,16 @@ Consulta las reglas antes de usar un logo: [[docs/brand/LOGO-USAGE]]. No deforma
 
 ## Paleta
 
-| Rol | Color | Valor |
-|---|---|---|
-| Primary | Morado Algorithmics | `#602B7A` |
-| Accent | Turquesa Algorithmics | `#33DFC0` |
-| Accent | Amarillo Algorithmics | `#FFD749` |
+![[assets/brand/colors/algorithmics-official-palette.svg]]
 
-Fuente ejecutable: [[config/brand/colors.json]].
+| Rol | Color | Pantone | Valor digital |
+|---|---|---|---|
+| Principal | Púrpura Oscuro | `7664 C` | `#602B7A` |
+| Complementario | Amarillo Septiembre | `122 C` | `#FFD749` |
+| Complementario | Menta Fresca | `333 C` | `#33DFC0` |
+| Complementario | Frambuesa | `184 C` | `#F44C75` |
+
+Fuente ejecutable: [[config/brand/colors.json]]. Regla completa: [[docs/brand/COLORS]]. Revisión del manual: [[docs/brand/MANUAL-REVIEW]].
 
 ## Presentaciones NID
 

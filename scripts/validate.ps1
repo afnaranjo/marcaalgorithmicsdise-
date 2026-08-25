@@ -75,6 +75,7 @@ $assetCatalogPath = Join-Path $projectRoot "config\assets\catalog.json"
 if (Test-Path -LiteralPath $assetCatalogPath) {
     $assetCatalog = Get-Content -Raw -LiteralPath $assetCatalogPath | ConvertFrom-Json
     $catalogPaths = @(
+        $assetCatalog.collections.algorithmicsColors.visualReference
         $assetCatalog.collections.algorithmicsLogos.items.path
         $assetCatalog.collections.algorithmicsFonts.variableRegular
         $assetCatalog.collections.algorithmicsFonts.variableItalic
@@ -95,6 +96,11 @@ if (Test-Path -LiteralPath $colorsPath) {
     if ($colors.colors.primary.purple -ne "#602B7A") { Add-ValidationError "Primary purple token changed." }
     if ($colors.colors.accent.turquoise -ne "#33DFC0") { Add-ValidationError "Turquoise token changed." }
     if ($colors.colors.accent.yellow -ne "#FFD749") { Add-ValidationError "Yellow token changed." }
+    if ($colors.colors.accent.raspberry -ne "#F44C75") { Add-ValidationError "Raspberry token changed." }
+    if ($colors.specifications.purple.pantone -ne "7664 C") { Add-ValidationError "Purple Pantone token changed." }
+    if ($colors.specifications.yellow.pantone -ne "122 C") { Add-ValidationError "Yellow Pantone token changed." }
+    if ($colors.specifications.turquoise.pantone -ne "333 C") { Add-ValidationError "Turquoise Pantone token changed." }
+    if ($colors.specifications.raspberry.pantone -ne "184 C") { Add-ValidationError "Raspberry Pantone token changed." }
 }
 
 $logoRoot = Join-Path $projectRoot "assets\brand\logos"

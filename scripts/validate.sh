@@ -40,6 +40,14 @@ if ! git -C "$PROJECT_ROOT" lfs version >/dev/null 2>&1; then
   ERRORS=$((ERRORS + 1))
 fi
 
+for color in '#602B7A' '#FFD749' '#33DFC0' '#F44C75'
+do
+  if ! grep -Fq "$color" "$PROJECT_ROOT/config/brand/colors.json"; then
+    printf 'ERROR: approved hard color is missing: %s\n' "$color" >&2
+    ERRORS=$((ERRORS + 1))
+  fi
+done
+
 if find "$PROJECT_ROOT" \
   -path "$PROJECT_ROOT/.git" -prune -o \
   -path "$PROJECT_ROOT/.validator-deps" -prune -o \

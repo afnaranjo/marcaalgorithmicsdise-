@@ -30,7 +30,7 @@ Si dos fuentes se contradicen, no elijas arbitrariamente. Marca `PENDING VERIFIC
 ## Identidad
 
 - Usa Montserrat desde `assets/brand/fonts/montserrat/`.
-- Usa la paleta base documentada; no inventes colores oficiales.
+- Usa exclusivamente la paleta dura Algorithmics: `#602B7A`, `#FFD749`, `#33DFC0` y `#F44C75`. No sustituyas, aproximes ni inventes colores oficiales.
 - Inserta los logos PNG oficiales. No reconstruyas el logotipo con texto, no lo deformes y no alteres sus proporciones.
 - Distingue siempre Algorithmics de NID. La skill NID conserva su propio sistema visual bloqueado.
 - Toda exploración que cambie la identidad debe etiquetarse `EXPERIMENTAL` y no convertirse en regla sin aprobación.

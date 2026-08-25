@@ -29,7 +29,7 @@ Repositorio oficial del sistema creativo y operativo de Algorithmics utilizado p
 
 ## Estado actual
 
-- Sistema visual base documentado con Montserrat y la paleta aprobada de trabajo.
+- Sistema visual base documentado con Montserrat y la paleta oficial de cuatro colores fijada como regla dura.
 - Logos oficiales entregados por el usuario catalogados y preservados.
 - Skill de presentaciones educativas NID instalada y aislada de la marca Algorithmics.
 - Datos comerciales variables, edades, sedes, precios y horarios permanecen como `PENDING VERIFICATION` hasta que una fuente autorizada los confirme.

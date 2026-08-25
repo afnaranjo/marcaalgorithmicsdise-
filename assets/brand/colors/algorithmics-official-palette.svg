@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Paleta oficial de Algorithmics</title>
+  <desc id="desc">Cuatro colores oficiales: púrpura, amarillo, menta y frambuesa con sus valores Pantone y hexadecimal.</desc>
+  <rect width="1200" height="430" rx="28" fill="#FAFAFA"/>
+  <text x="48" y="58" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800">ALGORITHMICS · PALETA OFICIAL</text>
+  <text x="48" y="88" fill="#5C4E68" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="600">REGLA DURA · VALORES EXACTOS</text>
+
+  <g transform="translate(48 120)">
+    <rect width="264" height="250" rx="18" fill="#602B7A"/>
+    <text x="24" y="50" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Púrpura Oscuro</text>
+    <text x="24" y="178" fill="#FFD749" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800">#602B7A</text>
+    <text x="24" y="211" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600">PANTONE 7664 C</text>
+  </g>
+
+  <g transform="translate(328 120)">
+    <rect width="264" height="250" rx="18" fill="#FFD749"/>
+    <text x="24" y="50" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Amarillo</text>
+    <text x="24" y="78" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Septiembre</text>
+    <text x="24" y="178" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800">#FFD749</text>
+    <text x="24" y="211" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600">PANTONE 122 C</text>
+  </g>
+
+  <g transform="translate(608 120)">
+    <rect width="264" height="250" rx="18" fill="#33DFC0"/>
+    <text x="24" y="50" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Menta Fresca</text>
+    <text x="24" y="178" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800">#33DFC0</text>
+    <text x="24" y="211" fill="#602B7A" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600">PANTONE 333 C</text>
+  </g>
+
+  <g transform="translate(888 120)">
+    <rect width="264" height="250" rx="18" fill="#F44C75"/>
+    <text x="24" y="50" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Frambuesa</text>
+    <text x="24" y="178" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800">#F44C75</text>
+    <text x="24" y="211" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600">PANTONE 184 C</text>
+  </g>
+</svg>

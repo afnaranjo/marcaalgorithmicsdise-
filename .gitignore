@@ -21,6 +21,7 @@ Thumbs.db
 .obsidian/workspace-mobile.json
 .obsidian/cache/
 .trash/
+vault/.obsidian/
 
 # Logs, caches and temporary work
 *.log

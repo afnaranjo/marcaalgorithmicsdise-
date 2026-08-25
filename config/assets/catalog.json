@@ -4,6 +4,20 @@
   "vaultRoot": ".",
   "inbox": "assets/inbox",
   "collections": {
+    "algorithmicsColors": {
+      "brand": "Algorithmics",
+      "status": "OFFICIAL",
+      "ruleLevel": "HARD",
+      "specification": "config/brand/colors.json",
+      "documentation": "docs/brand/COLORS.md",
+      "visualReference": "assets/brand/colors/algorithmics-official-palette.svg",
+      "items": [
+        { "name": "Púrpura Oscuro", "pantone": "7664 C", "hex": "#602B7A" },
+        { "name": "Amarillo Septiembre", "pantone": "122 C", "hex": "#FFD749" },
+        { "name": "Menta Fresca", "pantone": "333 C", "hex": "#33DFC0" },
+        { "name": "Frambuesa", "pantone": "184 C", "hex": "#F44C75" }
+      ]
+    },
     "algorithmicsLogos": {
       "brand": "Algorithmics",
       "status": "OFFICIAL",

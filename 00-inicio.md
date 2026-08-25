@@ -33,12 +33,18 @@ updated: 2026-08-25
 |---|---|---|
 | ![[assets/brand/logos/primary/algorithmics-logo-purple.png\|220]] | ![[assets/brand/logos/primary/algorithmics-logo-turquoise.png\|220]] | ![[assets/brand/logos/primary/algorithmics-logo-yellow.png\|220]] |
 
+## Paleta oficial — regla dura
+
+![[assets/brand/colors/algorithmics-official-palette.svg]]
+
+No sustituir ni aproximar `#602B7A`, `#FFD749`, `#33DFC0` o `#F44C75`. Consulta [[docs/brand/COLORS|la especificación completa]].
+
 ## Reglas esenciales
 
 - Algorithmics y NID son sistemas visuales diferentes.
 - No inventar datos comerciales, edades, precios, fechas, horarios o sedes.
 - No guardar credenciales, datos personales ni imágenes de menores sin autorización.
-- Usar `assets/brand/` como fuente oficial de logos y Montserrat.
+- Usar `assets/brand/` como fuente oficial de logos, colores y Montserrat.
 - Registrar solo aprendizajes estables; los borradores y datos temporales no son memoria global.
 
 ## Estado del sistema

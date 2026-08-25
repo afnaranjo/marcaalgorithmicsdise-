@@ -13,7 +13,7 @@ Ayudar a niños y adolescentes a pasar de consumidores de tecnología a creadore
 ## Elementos canónicos
 
 - Tipografía: Montserrat.
-- Colores: definidos en `config/brand/colors.json`.
+- Colores: cuatro valores exactos definidos como regla dura en `config/brand/colors.json` y `docs/brand/COLORS.md`.
 - Logos: `assets/brand/logos/`.
 - Reglas tipográficas: `docs/brand/TYPOGRAPHY.md`.
 - Uso de logo: `docs/brand/LOGO-USAGE.md`.

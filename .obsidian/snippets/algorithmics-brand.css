@@ -13,6 +13,10 @@
 }
 
 body {
+  --algorithmics-purple: #602b7a;
+  --algorithmics-yellow: #ffd749;
+  --algorithmics-mint: #33dfc0;
+  --algorithmics-raspberry: #f44c75;
   --font-interface: "Montserrat Algorithmics", Montserrat, sans-serif;
   --font-text: "Montserrat Algorithmics", Montserrat, sans-serif;
   --interactive-accent: #602b7a;
