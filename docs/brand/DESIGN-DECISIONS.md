@@ -146,3 +146,40 @@ Los artes históricos no se versionan indiscriminadamente. Se extraen patrones r
 - `examples/approved/composition-patterns.md`
 - `examples/reference/asset-handling.md`
 - `examples/reference/historical-campaign-index.md`
+
+## DEC-2026-008
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Cumpleaños / felicitaciones  
+Alcance: `CAMPAIGN`
+
+### Decisión
+
+Adoptar una **primera propuesta por defecto para artes de cumpleaños de Algorithmics** con estas características:
+
+- fondo inicial Amarillo Septiembre `#FFD749`;
+- Púrpura Oscuro `#602B7A` como estructura y tipografía dominante;
+- acentos controlados Menta Fresca `#33DFC0` y Frambuesa `#F44C75`;
+- Montserrat como tipografía principal;
+- fotografía real del estudiante como ancla, preferentemente en tercio izquierdo;
+- conservar pose y fisonomía; no es obligatorio sentar al estudiante;
+- jerarquía derecha: `FELIZ` → `CUMPLEAÑOS` → nombre → mensaje;
+- lenguaje pixel/voxel permitido como recurso de campaña, no como nueva identidad;
+- tipografía pixel permitida solo como acento, nunca como sustituto de Montserrat;
+- evitar glow/neón, estética gamer genérica y señales visuales típicas de IA.
+
+### Motivo
+
+La combinación aprobada integra una estética digital lúdica y juvenil con el sistema cromático y tipográfico oficial, mantiene protagonismo humano y mejora la diferenciación de las felicitaciones frente a plantillas genéricas.
+
+### Privacidad
+
+Guardar el patrón y el prompt; no subir automáticamente fotografías identificables de menores al repositorio sin autorización explícita para ese alcance.
+
+### Referencias
+
+- `prompts/campaigns/birthday-greeting.md`
+- `config/brand/colors.json`
+- `config/brand/typography.json`
+- `docs/brand/ANTI-AI-AESTHETIC.md`
