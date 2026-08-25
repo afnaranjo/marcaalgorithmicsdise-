@@ -14,24 +14,20 @@ updated: 2026-08-25
 # Algorithmics — banco de memoria
 
 > [!brand] Fuente de verdad
-> Este vault es toda la carpeta `C:\Users\USUARIO\Documents\ChatGPT\algorithmics`. La documentación, los activos y las skills permanecen en sus rutas canónicas; estas notas sirven como acceso rápido y memoria navegable.
+> El repositorio `afnaranjo/marcaalgorithmicsdise-` es la fuente viva. La documentación, activos y skills permanecen en sus rutas canónicas; estas notas sirven como acceso rápido y memoria navegable.
 
 ## Accesos rápidos
 
 | Necesidad | Abrir |
 |---|---|
 | Estado y reglas estables | [[docs/ai/PROJECT-MEMORY\|Memoria canónica]] |
+| Sistema de marca | [[docs/brand/BRAND-SYSTEM\|Sistema de marca]] |
+| Dirección de arte y montaje | [[vault/06-direccion-de-arte\|Dirección de arte]] |
 | Logos, tipografías y vistas previas | [[vault/02-catalogo-visual\|Catálogo visual]] |
 | Dónde vive cada elemento | [[vault/01-mapa-del-proyecto\|Mapa del proyecto]] |
 | Qué recordar y cómo registrarlo | [[vault/03-memoria-operativa\|Memoria operativa]] |
 | Skills y procesos de producción | [[vault/04-skills-y-flujos\|Skills y flujos]] |
 | Incorporar recursos nuevos | [[vault/05-bandeja-de-entrada\|Bandeja de entrada]] |
-
-## Logos oficiales
-
-| Morado | Turquesa | Amarillo |
-|---|---|---|
-| ![[assets/brand/logos/primary/algorithmics-logo-purple.png\|220]] | ![[assets/brand/logos/primary/algorithmics-logo-turquoise.png\|220]] | ![[assets/brand/logos/primary/algorithmics-logo-yellow.png\|220]] |
 
 ## Paleta oficial — regla dura
 
@@ -42,17 +38,20 @@ No sustituir ni aproximar `#602B7A`, `#FFD749`, `#33DFC0` o `#F44C75`. Consulta 
 ## Reglas esenciales
 
 - Algorithmics y NID son sistemas visuales diferentes.
+- IA como herramienta, nunca como estética.
+- Una corrección puntual no autoriza un rediseño.
+- Conservar fisonomía cuando una fotografía real sea referencia y así se solicite.
 - No inventar datos comerciales, edades, precios, fechas, horarios o sedes.
-- No guardar credenciales, datos personales ni imágenes de menores sin autorización.
-- Usar `assets/brand/` como fuente oficial de logos, colores y Montserrat.
-- Registrar solo aprendizajes estables; los borradores y datos temporales no son memoria global.
+- No guardar credenciales, datos personales ni imágenes sensibles sin autorización y clasificación.
+- Registrar solo aprendizajes estables; borradores y datos temporales no son memoria global.
 
 ## Estado del sistema
 
 - Marca base: `APPROVED`.
-- Repositorio remoto: [GitHub](https://github.com/afnaranjo/marcaalgorithmicsdise-).
+- Repositorio: `PRIVATE`.
+- Rama canónica: `main`.
 - Catálogo legible por máquinas: [[config/assets/catalog.json]].
 - Datos comerciales variables: `PENDING VERIFICATION`.
 
-> [!pending] Pendiente
-> Confirmar si el repositorio debe permanecer `PUBLIC` o pasar a `INTERNAL`, especialmente antes de incorporar material con restricciones de uso.
+> [!note] Mantenimiento
+> Si una composición, montaje o prompt se aprueba de forma explícita o repetida, extrae el aprendizaje reusable, clasifica su alcance y actualiza la fuente canónica correspondiente. No pegues chats crudos.

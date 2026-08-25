@@ -2,9 +2,9 @@
 
 ## DEC-2026-001
 
-Fecha: 2026-08-25
-Estado: `SUPERSEDED` por `DEC-2026-002`
-Área: Identidad visual
+Fecha: 2026-08-25  
+Estado: `SUPERSEDED` por `DEC-2026-002`  
+Área: Identidad visual  
 Alcance: `GLOBAL`
 
 ### Decisión
@@ -33,9 +33,9 @@ La definición de tres colores quedó sustituida por la paleta dura de cuatro co
 
 ## DEC-2026-002
 
-Fecha: 2026-08-25
-Estado: `APPROVED`
-Área: Color
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Color  
 Alcance: `GLOBAL_ALGORITHMICS`
 
 ### Decisión
@@ -61,3 +61,88 @@ No modifica el sistema visual NID. Tampoco aprueba automáticamente los demás c
 - `docs/brand/MANUAL-REVIEW.md`
 - `config/brand/colors.json`
 - `assets/brand/colors/algorithmics-official-palette.svg`
+
+## DEC-2026-003
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Dirección de arte  
+Alcance: `GLOBAL`
+
+### Decisión
+
+Adoptar como principio obligatorio: **IA como herramienta, nunca como estética**. Una pieza debe sentirse dirigida por un diseñador humano y no depender de clichés visuales de generación automática.
+
+### Aplicación
+
+Posts, carruseles, stories, reels, anuncios, flyers, presentaciones, fotomontajes, prompts e imágenes base.
+
+### Referencias
+
+- `docs/brand/ART-DIRECTION.md`
+- `docs/brand/ANTI-AI-AESTHETIC.md`
+- `config/brand/art-direction.json`
+
+## DEC-2026-004
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Edición  
+Alcance: `GLOBAL`
+
+### Decisión
+
+Una instrucción puntual no autoriza rediseño. En correcciones tipo “quita el CTA”, “cambia el morado”, “cambia solo el rostro” o “quita el logo”, todo elemento no mencionado permanece bloqueado salvo imposibilidad física evidente.
+
+### Referencias
+
+- `docs/brand/COMPOSITION-AND-MONTAGE.md`
+- `prompts/image-generation/surgical-edit.md`
+
+## DEC-2026-005
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Fotografía y fisonomía  
+Alcance: `GLOBAL`
+
+### Decisión
+
+Cuando una fotografía real es referencia y se solicita conservar fisonomía, identidad facial, edad aparente y rasgos estructurales no deben cambiar. La mejora técnica no debe convertir a la persona en un rostro genérico.
+
+### Referencias
+
+- `docs/brand/COMPOSITION-AND-MONTAGE.md`
+
+## DEC-2026-006
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Montaje de programación  
+Alcance: `PROGRAM` — Python / escenas de código
+
+### Decisión
+
+Validar la composición sobre-hombro: estudiante mirando el display, perfil parcial, manos sobre teclado, laptop en perspectiva diagonal aproximada de 35–50°, código dentro del display y espacio negativo lateral para copy.
+
+### Referencias
+
+- `prompts/image-generation/student-with-laptop.md`
+- `docs/brand/COMPOSITION-AND-MONTAGE.md`
+
+## DEC-2026-007
+
+Fecha: 2026-08-25  
+Estado: `APPROVED`  
+Área: Memoria creativa  
+Alcance: `GLOBAL`
+
+### Decisión
+
+Los artes históricos no se versionan indiscriminadamente. Se extraen patrones reutilizables, prompts, restricciones y decisiones; se clasifican por alcance `GLOBAL`, `PROGRAM`, `CAMPAIGN` o `PIECE`. Las fotos identificables de menores requieren revisión de autorización antes de entrar al repositorio.
+
+### Referencias
+
+- `examples/approved/composition-patterns.md`
+- `examples/reference/asset-handling.md`
+- `examples/reference/historical-campaign-index.md`

@@ -1,0 +1,51 @@
+{
+  "version": "2026.08.25",
+  "status": "APPROVED",
+  "scope": "GLOBAL",
+  "principles": {
+    "humanDirected": true,
+    "aiAsToolNotAesthetic": true,
+    "oneDominantIdea": true,
+    "mobileFirstLegibility": true,
+    "negativeSpaceIsIntentional": true,
+    "technologyRequiresPurpose": true,
+    "surgicalEditsPreserveUnrequestedElements": true
+  },
+  "avoid": [
+    "generic-ai-tech-gradients",
+    "neon-glow-default",
+    "plastic-skin",
+    "generic-generated-faces",
+    "impossible-lighting",
+    "floating-ui-without-screen",
+    "random-3d-objects",
+    "sci-fi-background-without-concept",
+    "perfectly-centered-template-layouts",
+    "excessive-pills-and-cards",
+    "code-floating-outside-display"
+  ],
+  "photoMontage": {
+    "preservePhysiognomyWhenRequested": true,
+    "matchPerspective": true,
+    "matchLighting": true,
+    "matchColorTemperature": true,
+    "contactShadowsWhenApplicable": true,
+    "avoidCutoutHalos": true
+  },
+  "codingScene": {
+    "studentLooksAtScreen": true,
+    "preferThreeQuarterOrSideScreen": true,
+    "codeInsideScreen": true,
+    "noPersonalDataOnScreen": true,
+    "handsAndKeyboardGeometryPlausible": true,
+    "recommendedScreenAngleDegrees": [35, 50]
+  },
+  "scopeLabels": [
+    "GLOBAL",
+    "PROGRAM",
+    "CAMPAIGN",
+    "PIECE",
+    "EXPERIMENTAL",
+    "DEPRECATED"
+  ]
+}
