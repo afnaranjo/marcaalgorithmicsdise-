@@ -16,6 +16,12 @@ Thumbs.db
 .idea/
 .vscode/settings.local.json
 
+# Obsidian local UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
 # Logs, caches and temporary work
 *.log
 logs/

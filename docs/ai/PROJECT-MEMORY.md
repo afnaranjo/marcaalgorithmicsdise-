@@ -39,6 +39,8 @@ Se reconocen como líneas recurrentes Scratch, Python, Roblox, Future Coders, Ma
 
 - Algorithmics: `assets/brand/`.
 - Presentaciones educativas NID: `.agents/skills/crear-presentaciones-nid/`; conserva una identidad separada y bloqueada.
+- La raíz del repositorio es el vault de Obsidian. Su entrada es `00-inicio.md`; el catálogo visual está en `vault/02-catalogo-visual.md` y el catálogo técnico en `config/assets/catalog.json`.
+- Los recursos nuevos permanecen en `assets/inbox/` hasta verificar origen, licencia, privacidad, duplicados y alcance.
 
 ## Decisiones pendientes
 

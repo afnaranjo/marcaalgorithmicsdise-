@@ -8,12 +8,16 @@ Write-Host "Algorithmics project setup"
 Write-Host "Root: $projectRoot"
 
 $required = @(
+    "00-inicio.md",
     "AGENTS.md",
     "docs\ai\PROJECT-MEMORY.md",
     "docs\brand\BRAND-SYSTEM.md",
     "config\brand\tokens.json",
     "assets\brand\logos",
     "assets\brand\fonts\montserrat",
+    "config\assets\catalog.json",
+    ".obsidian\app.json",
+    "vault",
     ".agents\skills"
 )
 
@@ -44,4 +48,5 @@ $logoCount = @(Get-ChildItem -LiteralPath (Join-Path $projectRoot "assets\brand\
 Write-Host "Fonts available: $fontCount"
 Write-Host "Logos available: $logoCount"
 Write-Host "Codex repo skills: $((Get-ChildItem -LiteralPath (Join-Path $projectRoot '.agents\skills') -Directory).Count)"
+Write-Host "Obsidian vault: open this project root and start at 00-inicio.md"
 Write-Host "Setup check complete. Install Montserrat in the operating system only if your design application requires it."

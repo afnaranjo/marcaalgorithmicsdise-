@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Montserrat Algorithmics";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../../assets/brand/fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Algorithmics";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("../../assets/brand/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  --font-interface: "Montserrat Algorithmics", Montserrat, sans-serif;
+  --font-text: "Montserrat Algorithmics", Montserrat, sans-serif;
+  --interactive-accent: #602b7a;
+  --interactive-accent-hover: #4d2263;
+  --text-accent: #602b7a;
+  --text-accent-hover: #33bfa7;
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-source-view.mod-cm6 .cm-header {
+  color: #602b7a;
+  font-family: "Montserrat Algorithmics", Montserrat, sans-serif;
+}
+
+.callout[data-callout="brand"] {
+  --callout-color: 96, 43, 122;
+  --callout-icon: lucide-sparkles;
+}
+
+.callout[data-callout="asset"] {
+  --callout-color: 51, 223, 192;
+  --callout-icon: lucide-image;
+}
+
+.callout[data-callout="pending"] {
+  --callout-color: 255, 215, 73;
+  --callout-icon: lucide-circle-help;
+}

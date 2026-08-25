@@ -13,6 +13,9 @@ Los cambios significativos del sistema se registran aquí.
 - Skills locales para marca, copywriting, redes, campañas y presentaciones NID.
 - Scripts de configuración y validación local.
 - Reglas Git LFS para presentaciones y maestros binarios pesados.
+- Vault de Obsidian en la raíz del repositorio con panel de inicio, catálogo visual, memoria operativa, plantillas y bitácora.
+- Catálogo técnico de logos, tipografías y presentaciones NID en `config/assets/catalog.json`.
+- Bandeja `assets/inbox/` para clasificar nuevos recursos antes de incorporarlos al sistema oficial.
 
 ### Changed
 

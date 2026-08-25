@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets/inbox",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "vault/notas",
+  "promptDelete": true,
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false
+}

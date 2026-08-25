@@ -15,6 +15,11 @@
 - Codex y skills locales del proyecto.
 - Generación de imágenes o video solo mediante herramientas autorizadas.
 
+## Memoria y navegación
+
+- Obsidian para abrir la raíz completa del repositorio como vault.
+- `00-inicio.md` como panel principal y `config/assets/catalog.json` como inventario técnico de activos.
+
 ## Desarrollo
 
 - Git y GitHub con Credential Manager, SSH o integración oficial.

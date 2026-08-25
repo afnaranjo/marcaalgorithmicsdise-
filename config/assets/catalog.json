@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-08-25",
+  "vaultRoot": ".",
+  "inbox": "assets/inbox",
+  "collections": {
+    "algorithmicsLogos": {
+      "brand": "Algorithmics",
+      "status": "OFFICIAL",
+      "classification": "PENDING_VERIFICATION",
+      "usageRules": "docs/brand/LOGO-USAGE.md",
+      "items": [
+        {
+          "id": "algorithmics-logo-purple",
+          "variant": "primary-purple",
+          "path": "assets/brand/logos/primary/algorithmics-logo-purple.png"
+        },
+        {
+          "id": "algorithmics-logo-turquoise",
+          "variant": "primary-turquoise",
+          "path": "assets/brand/logos/primary/algorithmics-logo-turquoise.png"
+        },
+        {
+          "id": "algorithmics-logo-yellow",
+          "variant": "primary-yellow",
+          "path": "assets/brand/logos/primary/algorithmics-logo-yellow.png"
+        },
+        {
+          "id": "algorithmics-logo-black",
+          "variant": "monochrome-black",
+          "path": "assets/brand/logos/monochrome/algorithmics-logo-black.png"
+        },
+        {
+          "id": "algorithmics-logo-white",
+          "variant": "monochrome-white",
+          "path": "assets/brand/logos/monochrome/algorithmics-logo-white.png"
+        }
+      ]
+    },
+    "algorithmicsFonts": {
+      "brand": "Algorithmics",
+      "family": "Montserrat",
+      "status": "OFFICIAL",
+      "classification": "LICENSED",
+      "license": "SIL Open Font License 1.1",
+      "root": "assets/brand/fonts/montserrat",
+      "variableRegular": "assets/brand/fonts/montserrat/Montserrat-VariableFont_wght.ttf",
+      "variableItalic": "assets/brand/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf",
+      "staticRoot": "assets/brand/fonts/montserrat/static",
+      "usageRules": "docs/brand/TYPOGRAPHY.md"
+    },
+    "nidPresentations": {
+      "brand": "NID",
+      "status": "LOCKED",
+      "classification": "PENDING_VERIFICATION",
+      "root": ".agents/skills/crear-presentaciones-nid/assets",
+      "template": ".agents/skills/crear-presentaciones-nid/assets/template.pptx",
+      "examples": [
+        ".agents/skills/crear-presentaciones-nid/assets/examples/Matematicas_NID_Aprobado.pptx",
+        ".agents/skills/crear-presentaciones-nid/assets/examples/Biologia_NID_Aprobado.pptx",
+        ".agents/skills/crear-presentaciones-nid/assets/examples/Literatura_NID_Aprobado.pptx"
+      ],
+      "previews": [
+        ".agents/skills/crear-presentaciones-nid/assets/previews/Matematicas_NID.png",
+        ".agents/skills/crear-presentaciones-nid/assets/previews/Biologia_NID.png",
+        ".agents/skills/crear-presentaciones-nid/assets/previews/Literatura_NID.png",
+        ".agents/skills/crear-presentaciones-nid/assets/previews/Ingles_NID.png"
+      ]
+    }
+  }
+}

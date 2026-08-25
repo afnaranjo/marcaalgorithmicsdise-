@@ -19,6 +19,7 @@ Repositorio oficial del sistema creativo y operativo de Algorithmics utilizado p
 | Audiencias y copy | `docs/content/` |
 | Programas | `docs/programs/` |
 | Memoria para IA | `docs/ai/` |
+| Vault de Obsidian | `00-inicio.md`, `.obsidian/` y `vault/` |
 | Procesos | `docs/workflows/` |
 | Privacidad y licencias | `docs/privacy/` |
 | Skills del proyecto | `.agents/skills/` |
@@ -50,6 +51,10 @@ En macOS o Linux:
 ```
 
 No se incluyen credenciales. Copia `.env.example` a `.env` únicamente si una herramienta lo requiere y mantén los valores reales fuera de Git.
+
+## Vault de Obsidian
+
+Abre `C:\Users\USUARIO\Documents\ChatGPT\algorithmics` como vault de Obsidian y comienza en [`00-inicio.md`](00-inicio.md). El vault enlaza la memoria, los logos, las tipografías, las presentaciones, las skills y los workflows sin duplicarlos. Los nuevos recursos se reciben primero en `assets/inbox/` para revisar origen, licencia y privacidad.
 
 ## Git
 

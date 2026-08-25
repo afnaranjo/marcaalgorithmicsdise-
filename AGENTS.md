@@ -7,11 +7,12 @@ Este repositorio es la fuente de verdad del sistema creativo de Algorithmics. Co
 Antes de trabajar:
 
 1. Lee este archivo.
-2. Lee `README.md`.
-3. Lee `docs/ai/PROJECT-MEMORY.md`.
-4. Lee `docs/brand/BRAND-SYSTEM.md`, `COLORS.md` y `TYPOGRAPHY.md`.
-5. Lee `docs/content/VOICE-AND-TONE.md` y `AUDIENCES.md`.
-6. Carga solo la ficha de programa, workflow, skill, plantilla o ejemplo que corresponda.
+2. Usa `00-inicio.md` como panel del vault y mapa de acceso rápido.
+3. Lee `README.md`.
+4. Lee `docs/ai/PROJECT-MEMORY.md`.
+5. Lee `docs/brand/BRAND-SYSTEM.md`, `COLORS.md` y `TYPOGRAPHY.md`.
+6. Lee `docs/content/VOICE-AND-TONE.md` y `AUDIENCES.md`.
+7. Carga solo la ficha de programa, workflow, skill, plantilla o ejemplo que corresponda.
 
 ## Fuentes canónicas
 
@@ -20,6 +21,7 @@ Antes de trabajar:
 - Formatos: `config/brand/formats.json`.
 - Explicación de marca: `docs/brand/`.
 - Logos oficiales: `assets/brand/logos/`.
+- Catálogo de activos: `config/assets/catalog.json` y `vault/02-catalogo-visual.md`.
 - Memoria estable: `docs/ai/PROJECT-MEMORY.md`.
 - Datos variables: confirmar en una fuente autorizada antes de publicar.
 
@@ -64,6 +66,8 @@ No uses el mismo tono para un niño de 9 años, un adolescente de 16 y una perso
 ## Memoria y decisiones
 
 Transforma aprendizajes repetibles en documentación, no en transcripciones de chat. Clasifica su alcance como `GLOBAL`, `PROGRAM`, `CAMPAIGN`, `PIECE` o `EXPERIMENTAL`. Una aprobación puntual no se vuelve automáticamente una regla global.
+
+La raíz del repositorio funciona como vault de Obsidian. Usa `00-inicio.md` para navegar, `vault/` para paneles y notas operativas, y `assets/inbox/` como cuarentena de recursos nuevos. No dupliques dentro del vault información que ya tenga una fuente canónica; enlázala.
 
 Antes de guardar algo, pregunta: “¿Esto permitirá que otra persona trabaje mejor en Algorithmics en el futuro?”. Si no, mantenlo fuera del repositorio.
 

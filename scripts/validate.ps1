@@ -16,6 +16,7 @@ function Add-ValidationWarning([string]$message) {
 
 $requiredFiles = @(
     "README.md",
+    "00-inicio.md",
     "AGENTS.md",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
@@ -32,7 +33,15 @@ $requiredFiles = @(
     "config\brand\colors.json",
     "config\brand\typography.json",
     "config\brand\formats.json",
-    "config\brand\tokens.json"
+    "config\brand\tokens.json",
+    "config\assets\catalog.json",
+    ".obsidian\app.json",
+    ".obsidian\appearance.json",
+    ".obsidian\daily-notes.json",
+    ".obsidian\templates.json",
+    ".obsidian\snippets\algorithmics-brand.css",
+    "vault\02-catalogo-visual.md",
+    "vault\03-memoria-operativa.md"
 )
 
 foreach ($relativePath in $requiredFiles) {
@@ -45,7 +54,12 @@ foreach ($relativePath in @(
     "config\brand\colors.json",
     "config\brand\typography.json",
     "config\brand\formats.json",
-    "config\brand\tokens.json"
+    "config\brand\tokens.json",
+    "config\assets\catalog.json",
+    ".obsidian\app.json",
+    ".obsidian\appearance.json",
+    ".obsidian\daily-notes.json",
+    ".obsidian\templates.json"
 )) {
     $fullPath = Join-Path $projectRoot $relativePath
     if (Test-Path -LiteralPath $fullPath) {
@@ -53,6 +67,24 @@ foreach ($relativePath in @(
             Get-Content -Raw -LiteralPath $fullPath | ConvertFrom-Json | Out-Null
         } catch {
             Add-ValidationError "Invalid JSON: $relativePath — $($_.Exception.Message)"
+        }
+    }
+}
+
+$assetCatalogPath = Join-Path $projectRoot "config\assets\catalog.json"
+if (Test-Path -LiteralPath $assetCatalogPath) {
+    $assetCatalog = Get-Content -Raw -LiteralPath $assetCatalogPath | ConvertFrom-Json
+    $catalogPaths = @(
+        $assetCatalog.collections.algorithmicsLogos.items.path
+        $assetCatalog.collections.algorithmicsFonts.variableRegular
+        $assetCatalog.collections.algorithmicsFonts.variableItalic
+        $assetCatalog.collections.nidPresentations.template
+        $assetCatalog.collections.nidPresentations.examples
+        $assetCatalog.collections.nidPresentations.previews
+    )
+    foreach ($catalogPath in $catalogPaths) {
+        if (-not (Test-Path -LiteralPath (Join-Path $projectRoot $catalogPath) -PathType Leaf)) {
+            Add-ValidationError "Asset catalog path is missing: $catalogPath"
         }
     }
 }

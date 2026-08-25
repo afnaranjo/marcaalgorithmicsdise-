@@ -1,0 +1,5 @@
+{
+  "folder": "vault/bitacora",
+  "format": "YYYY-MM-DD",
+  "template": "vault/plantillas/nota-diaria"
+}

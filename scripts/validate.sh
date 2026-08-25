@@ -12,11 +12,14 @@ require_file() {
 }
 
 for path in \
-  README.md AGENTS.md CHANGELOG.md CONTRIBUTING.md .gitignore .gitattributes .env.example \
+  README.md 00-inicio.md AGENTS.md CHANGELOG.md CONTRIBUTING.md .gitignore .gitattributes .env.example \
   docs/ai/PROJECT-MEMORY.md docs/brand/BRAND-SYSTEM.md docs/brand/COLORS.md \
   docs/brand/TYPOGRAPHY.md docs/content/VOICE-AND-TONE.md docs/content/AUDIENCES.md \
   docs/privacy/CHILD-SAFETY.md config/brand/colors.json config/brand/typography.json \
-  config/brand/formats.json config/brand/tokens.json
+  config/brand/formats.json config/brand/tokens.json config/assets/catalog.json \
+  .obsidian/app.json .obsidian/appearance.json .obsidian/daily-notes.json \
+  .obsidian/templates.json .obsidian/snippets/algorithmics-brand.css \
+  vault/02-catalogo-visual.md vault/03-memoria-operativa.md
 do
   require_file "$path"
 done
