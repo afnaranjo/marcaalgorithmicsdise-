@@ -22,7 +22,7 @@ Los prompts **no sustituyen** el sistema de marca. Antes de utilizarlos se leen 
 - `campaigns/future-coders.md`: dirección adolescente, programación + IA sutil.
 - `campaigns/tech-kids-open-house.md`: estudiantes + proyectos + aire para Open House/Tech Kids.
 - `campaigns/belief-vs-skills-carousel.md`: prejuicio/percepción → habilidad/evidencia para comunicación con padres.
-- `campaigns/birthday-greeting.md`: **primera propuesta por defecto para cumpleaños Algorithmics**; fondo amarillo oficial, estudiante real como ancla, composición editorial asimétrica y sistema pixel/voxel controlado con Montserrat como tipografía principal.
+- `campaigns/birthday-greeting.md`: **primera propuesta por defecto para cumpleaños Algorithmics**; fondo amarillo oficial, estudiante real como ancla, composición editorial asimétrica y sistema pixel/voxel controlado con Montserrat como tipografía principal. **Trigger operativo:** si el usuario sube solo una foto y pide “feliz cumpleaños Algorithmics”, cargar esta plantilla automáticamente sin volver a pedir composición, color o estilo. Si no entrega nombre, no inventarlo; omitirlo o dejar el bloque listo para edición. Si no entrega mensaje, usar el mensaje base aprobado.
 
 ### Referencias narrativas
 
