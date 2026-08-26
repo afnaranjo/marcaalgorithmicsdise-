@@ -4,6 +4,25 @@ Estado: `APPROVED`
 Alcance: `CAMPAIGN` — Birthday / felicitaciones de estudiantes  
 Prioridad: **usar como primera propuesta cuando el usuario pida un arte de cumpleaños para Algorithmics**, salvo instrucción explícita distinta.
 
+## Referencia visual canónica — OBLIGATORIA
+
+La plantilla ya no debe reconstruirse solo desde memoria o desde este prompt.
+
+**Master visual:** `examples/approved/birthday-template-v1.svg`  
+**Contrato de uso:** `examples/approved/birthday-template-v1.md`
+
+Antes de generar un cumpleaños:
+
+1. cargar/descargar el SVG master;
+2. usarlo como `reference image`, `composition reference` o master editable;
+3. conservar el layout con fidelidad alta;
+4. sustituir **solo FOTO + NOMBRE** por defecto;
+5. no reinterpretar la composición si el usuario no lo pidió.
+
+El SVG es una **fuente de verdad visual**, no una inspiración. Si la herramienta generativa no admite SVG, rasterizar/visualizar el master y usar esa imagen como referencia antes de generar.
+
+**Está prohibido generar una nueva composición desde cero cuando este master esté disponible.**
+
 ## Trigger operativo — entrada mínima
 
 Esta plantilla debe activarse automáticamente cuando el usuario:
@@ -14,7 +33,7 @@ Esta plantilla debe activarse automáticamente cuando el usuario:
 
 **Entrada mínima aceptada: `{{student_photo}}`.**
 
-No volver a pedir al usuario que defina la composición, colores, tipografía, fondo ni estilo si no ha solicitado cambiarlos: esta receta ya los define.
+No volver a pedir al usuario que defina la composición, colores, tipografía, fondo ni estilo si no ha solicitado cambiarlos: el master visual ya los define.
 
 Si el usuario no proporciona nombre:
 
@@ -26,7 +45,7 @@ Si el usuario no proporciona mensaje:
 
 - usar el mensaje base aprobado de esta plantilla.
 
-Por defecto, la primera propuesta debe conservar esta composición y solo sustituir la fotografía y los datos variables autorizados.
+Por defecto, la primera propuesta debe conservar esta composición y solo sustituir la fotografía y el nombre autorizado.
 
 ## Objetivo
 
@@ -39,103 +58,131 @@ La idea dominante es:
 ## Formato base
 
 - Instagram post `1080 × 1350 px` / 4:5.
-- Recompone para 9:16; no hacer simple recorte.
+- Recompone para 9:16 solo si se solicita; no hacer simple recorte.
 - Lectura móvil prioritaria.
 
 ## Variables
 
 - `{{student_photo}}`: fotografía real autorizada del estudiante.
 - `{{student_name}}`: nombre a mostrar; opcional, nunca inventar.
-- `{{birthday_message}}`: mensaje de felicitación; si falta, usar el mensaje base.
+- `{{birthday_message}}`: por defecto queda bloqueado al mensaje aprobado; solo cambiar si el usuario lo pide.
 - `{{format}}`: 4:5 por defecto.
 
-Mensaje base aprobado cuando no se entregue otro:
+Mensaje base aprobado:
 
 > Que este nuevo año venga lleno de ideas, proyectos y sueños que puedas convertir en realidad.
 
-## Dirección visual — primera plantilla
+## Dirección visual — plantilla bloqueada
 
 ### Composición
 
-1. **Fotografía real del estudiante como ancla principal**, normalmente en el tercio izquierdo y ocupando aproximadamente 35–45% del ancho.
+1. **Fotografía real del estudiante como ancla principal** en el lado izquierdo, entrando desde el borde inferior y ocupando aproximadamente 35–45% del ancho.
 2. No es obligatorio sentarlo. Mantener la postura natural de la fotografía suministrada; si está de pie, conservarla.
 3. Preservar estrictamente fisonomía, edad aparente, tono de piel, cabello, ropa y gesto salvo petición explícita.
-4. En el lado derecho, construir una jerarquía vertical clara:
+4. En el lado derecho conservar la jerarquía vertical del master:
    - `FELIZ`;
    - `CUMPLEAÑOS`;
-   - nombre del estudiante si fue proporcionado;
-   - mensaje corto.
-5. Dejar aire real entre bloques. No llenar todo el lienzo con decoración.
+   - banda blanca con nombre;
+   - caja púrpura de mensaje con borde menta.
+5. Mantener aire real entre bloques.
 6. La fotografía debe integrarse con bordes limpios, escala plausible, sombra/contacto coherente y sin halo de recorte.
-7. **No reinterpretar la plantilla en cada solicitud.** Si el usuario solo cambia la foto, mantener estructura, jerarquía, lenguaje pixel/voxel, paleta y proporciones generales de esta composición.
+7. **No reinterpretar la plantilla en cada solicitud.** Si el usuario solo cambia la foto y el nombre, mantener estructura, jerarquía, pixel/voxel, paleta y proporciones del SVG master.
+8. Mantener los escalones/pixel terrain púrpura del lateral izquierdo y base inferior como parte del sistema visual aprobado.
 
 ### Fondo
 
-**Primera propuesta por defecto:** fondo **Amarillo Septiembre `#FFD749`** con tipografía/estructura principal en **Púrpura Oscuro `#602B7A`**.
+Fondo bloqueado por defecto: **Amarillo Septiembre `#FFD749`** con estructura principal en **Púrpura Oscuro `#602B7A`**.
 
-También puede invertirse a fondo púrpura con amarillo como acento si el contraste de la fotografía lo exige o el usuario lo pide, pero la primera propuesta es amarilla.
-
-Acentos permitidos:
+Acentos:
 
 - Menta Fresca `#33DFC0`;
 - Frambuesa `#F44C75`;
 - blanco funcional.
 
-Usar un color dominante y uno o dos acentos; no repartir el mismo peso entre los cuatro colores.
+No cambiar el fondo dominante salvo instrucción explícita.
 
 ### Sistema pixel / voxel
 
-El lenguaje pixel/voxel queda **aprobado como recurso de campaña para cumpleaños**, porque conecta juego, creación digital y programación.
+El lenguaje pixel/voxel queda **aprobado como recurso de campaña para cumpleaños** porque conecta juego, creación digital y programación.
 
-Usarlo con control:
+Conservar los elementos del master con control:
 
-- pequeños corazones, estrellas, pastel, sombrero, bloques de código o criaturas abstractas tipo voxel;
-- patrón de suelo o escalones pixelados subordinados;
-- 2–5 elementos máximos con función compositiva;
-- evitar copiar personajes, assets o tipografías propietarias de Minecraft, Roblox u otras IP.
+- corazón pixel;
+- sombrero de cumpleaños pixel;
+- símbolo de código;
+- confetti geométrico;
+- pastel pixel en la banda de nombre;
+- pixel terrain/escalones púrpura.
 
-**Tipografía tipo pixel:** puede aparecer como acento decorativo, lettering secundario o textura de fondo. **No reemplaza la tipografía oficial.**
+Evitar copiar personajes, assets o tipografías propietarias de Minecraft, Roblox u otras IP.
+
+**Tipografía tipo pixel:** solo puede aparecer como acento decorativo. **No reemplaza la tipografía oficial.**
 
 ## Tipografía
 
 La tipografía principal sigue siendo **Montserrat**.
 
-Jerarquía recomendada:
-
-- `FELIZ`: Montserrat ExtraBold/Black, púrpura o blanco según fondo.
-- `CUMPLEAÑOS`: Montserrat ExtraBold/Black, gran escala; puede tener una sombra física mínima o offset plano de marca, nunca glow.
-- `{{student_name}}`: Montserrat Bold dentro de una banda/pastilla simple o bloque editorial cuando exista.
-- `{{birthday_message}}`: Montserrat Medium/SemiBold, máximo 4–5 líneas.
+- `FELIZ`: Montserrat ExtraBold/Black.
+- `CUMPLEAÑOS`: Montserrat ExtraBold/Black, gran escala.
+- `{{student_name}}`: Montserrat Bold dentro de la banda blanca.
+- `{{birthday_message}}`: Montserrat Medium/SemiBold.
 
 No usar una fuente “Minecraft” como tipografía institucional ni para el logo.
 
 ## Logo
 
-- Insertar **asset oficial** de Algorithmics.
+- Insertar **asset oficial** de Algorithmics desde `assets/brand/logos/`.
 - No reconstruir el logo con texto.
 - No generar el logo mediante IA.
 - Respetar zona de seguridad.
-- Ubicación recomendada: esquina superior izquierda o bloque superior con suficiente aire.
+- Mantener la ubicación del master en el cuadrante superior izquierdo.
 
-Si la herramienta generativa no puede garantizar el logo/tipografía exactos, generar la escena base **sin logo ni texto** y componerlos después con assets oficiales.
+Si la herramienta generativa no puede garantizar el logo/tipografía exactos, generar la base respetando el master y componer logo/textos después con assets oficiales.
+
+## Flujo operativo preferido
+
+### A. Edición de master
+
+Abrir `examples/approved/birthday-template-v1.svg` y sustituir:
+
+- `student-photo` → fotografía nueva;
+- `student-name` → nombre nuevo.
+
+Eliminar el grupo `template-note` en exportación final.
+
+### B. Generación con referencia visual
+
+Si no se puede editar el SVG:
+
+1. descargar/visualizar el SVG master;
+2. usarlo como referencia de composición de alta prioridad;
+3. adjuntar también la nueva fotografía del estudiante;
+4. pedir preservación del layout;
+5. no permitir redistribución creativa de los bloques;
+6. recomponer logo y textos con assets oficiales si la IA los altera.
 
 ## Prompt maestro de generación
 
-> Crear una pieza vertical 4:5 de cumpleaños para Algorithmics, dirigida como por un diseñador senior humano. Usar como protagonista la fotografía real proporcionada de `{{student_photo}}`, conservar exactamente su fisonomía, edad aparente, cabello, tono de piel, ropa, proporciones y gesto; no reemplazar el rostro ni reinterpretar al estudiante. No es necesario sentarlo: respetar la pose natural de la fotografía y ubicarlo como ancla visual en el tercio izquierdo, con escala creíble y recorte profesional. Fondo dominante Amarillo Septiembre Algorithmics `#FFD749`, con estructura Púrpura Oscuro `#602B7A`, acentos puntuales Menta Fresca `#33DFC0` y Frambuesa `#F44C75`. Crear una composición editorial asimétrica y limpia, con aire, no una plantilla centrada. En el lado derecho reservar jerarquía para `FELIZ CUMPLEAÑOS`, `{{student_name}}` solo si fue proporcionado, y el mensaje `{{birthday_message}}`. Incorporar un lenguaje pixel/voxel sutil relacionado con creación digital: pequeños corazones, pastel, sombrero, símbolos de código, bloques o criaturas abstractas propias, sin copiar Minecraft/Roblox ni otras IP. Puede existir lettering pixel como textura/acento de fondo, pero la tipografía principal debe ser Montserrat ExtraBold/Bold/Medium. La fotografía debe conservar piel natural, textura real, luz coherente, sombras físicas y bordes sin halos. Evitar estética de IA: glow/neón, piel plástica, ojos artificialmente brillantes, fondos sci-fi, objetos 3D aleatorios, exceso de confeti, hologramas, UI flotante y simetría automática. La pieza debe sentirse festiva, creativa, tecnológica y Algorithmics, con una sola idea dominante: celebrar al estudiante dentro de un universo de creación digital. No generar ni reconstruir el logo; dejar zona limpia para insertar el asset oficial en edición.
+> Carga primero `examples/approved/birthday-template-v1.svg` y trátalo como master visual, no como inspiración. Reproduce la composición con fidelidad alta y no diseñes una alternativa. Sustituye únicamente la fotografía del slot izquierdo por `{{student_photo}}`, conservando exactamente fisonomía, edad aparente, cabello, tono de piel, ropa, proporciones y gesto del estudiante, y cambia únicamente la banda de nombre por `{{student_name}}` si fue proporcionado. Mantén bloqueados el fondo Amarillo Septiembre `#FFD749`, la estructura Púrpura Oscuro `#602B7A`, los acentos Menta `#33DFC0` y Frambuesa `#F44C75`, el headline `FELIZ CUMPLEAÑOS`, el mensaje base, la banda blanca de nombre, la caja púrpura con borde menta, el pixel terrain inferior/lateral, corazón, sombrero, símbolo de código, pastel y confetti. Mantén Montserrat como lenguaje tipográfico. Integrar la foto con piel natural, luz coherente, bordes limpios y sombras físicas. Evitar glow/neón, piel plástica, UI flotante, fondos sci-fi, objetos 3D aleatorios, simetría automática y cualquier señal de estética IA. No generar ni reconstruir el logo: usar el asset oficial desde `assets/brand/logos/`. Si la herramienta cambia tipografía o logo, generar la base y recomponer esos elementos en edición. No inventar una nueva composición.
 
-## Texto sugerido de arte
+## Texto de arte bloqueado por defecto
 
 **FELIZ**  
 **CUMPLEAÑOS**
 
 `{{student_name}}` — solo si fue proporcionado
 
-`{{birthday_message}}`
+Que este nuevo año venga lleno de **ideas**, **proyectos** y **sueños** que puedas convertir en realidad.
 
 ## Prohibido
 
+- generar el layout desde cero ignorando el SVG master;
 - cambiar la cara del estudiante;
 - convertirlo en avatar o personaje;
+- mover arbitrariamente el estudiante al centro/derecha;
+- cambiar la jerarquía del headline;
+- cambiar la posición de la banda de nombre o caja de mensaje;
+- alterar el mensaje base sin petición;
 - subir saturación o suavizado hasta plastificar piel;
 - glow gamer o neón por defecto;
 - fondos morado-azul “AI tech” genéricos;
@@ -145,24 +192,24 @@ Si la herramienta generativa no puede garantizar el logo/tipografía exactos, ge
 - sustituir Montserrat por una fuente pixel en todo el diseño;
 - deformar o recrear el logo;
 - inventar el nombre del estudiante;
-- publicar nombre completo, edad u otros datos si no están autorizados.
+- publicar edad u otros datos no autorizados.
 
 ## Quality gate
 
 Antes de entregar:
 
+- [ ] ¿Se cargó `examples/approved/birthday-template-v1.svg` como referencia real?
+- [ ] ¿La composición coincide con el master aprobado?
+- [ ] ¿Solo cambiaron foto + nombre, salvo instrucción explícita?
 - [ ] ¿El estudiante sigue siendo exactamente la misma persona?
 - [ ] ¿La primera lectura es “Feliz cumpleaños”?
-- [ ] ¿Se reconoce Algorithmics sin depender de efectos gamer?
 - [ ] ¿Se usan los colores oficiales exactos?
 - [ ] ¿Montserrat sigue siendo la tipografía principal?
 - [ ] ¿El pixel/voxel funciona como recurso, no como nueva identidad?
-- [ ] ¿Hay aire y jerarquía clara?
 - [ ] ¿La pieza evita señales típicas de IA?
-- [ ] ¿El logo se insertará desde asset oficial?
+- [ ] ¿El logo proviene de un asset oficial?
 - [ ] ¿No se inventó ningún dato variable?
-- [ ] ¿Los datos personales y la fotografía tienen alcance de uso autorizado?
 
 ## Privacidad
 
-La plantilla guarda la **estructura y el prompt**, no fotografías identificables de menores por defecto. Las fotos reales deben gestionarse según autorización y alcance del material.
+El master guardado en Git es una plantilla visual **sin fotografía identificable del estudiante**. Conserva la composición, pero las fotos reales se incorporan únicamente en piezas finales con alcance autorizado.
