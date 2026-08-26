@@ -4,6 +4,30 @@ Estado: `APPROVED`
 Alcance: `CAMPAIGN` — Birthday / felicitaciones de estudiantes  
 Prioridad: **usar como primera propuesta cuando el usuario pida un arte de cumpleaños para Algorithmics**, salvo instrucción explícita distinta.
 
+## Trigger operativo — entrada mínima
+
+Esta plantilla debe activarse automáticamente cuando el usuario:
+
+- suba una fotografía de un estudiante y pida un arte/post de **feliz cumpleaños para Algorithmics**;
+- diga únicamente “feliz cumpleaños”, “cumpleaños Algorithmics”, “hazlo como la plantilla aprobada” o equivalente dentro del proyecto;
+- vuelva en otro chat/proyecto y pida la primera propuesta de cumpleaños de Algorithmics.
+
+**Entrada mínima aceptada: `{{student_photo}}`.**
+
+No volver a pedir al usuario que defina la composición, colores, tipografía, fondo ni estilo si no ha solicitado cambiarlos: esta receta ya los define.
+
+Si el usuario no proporciona nombre:
+
+- **no inventarlo**;
+- generar la pieza sin nombre o dejar el bloque de nombre preparado para edición;
+- si el nombre viene explícitamente en el mensaje, usarlo exactamente como se entregó.
+
+Si el usuario no proporciona mensaje:
+
+- usar el mensaje base aprobado de esta plantilla.
+
+Por defecto, la primera propuesta debe conservar esta composición y solo sustituir la fotografía y los datos variables autorizados.
+
 ## Objetivo
 
 Crear una pieza de cumpleaños que se sienta inequívocamente Algorithmics: alegre, tecnológica, juvenil y humana, sin convertirse en un anuncio gamer genérico ni en una composición con estética evidente de IA.
@@ -21,8 +45,8 @@ La idea dominante es:
 ## Variables
 
 - `{{student_photo}}`: fotografía real autorizada del estudiante.
-- `{{student_name}}`: nombre a mostrar.
-- `{{birthday_message}}`: mensaje de felicitación.
+- `{{student_name}}`: nombre a mostrar; opcional, nunca inventar.
+- `{{birthday_message}}`: mensaje de felicitación; si falta, usar el mensaje base.
 - `{{format}}`: 4:5 por defecto.
 
 Mensaje base aprobado cuando no se entregue otro:
@@ -39,16 +63,17 @@ Mensaje base aprobado cuando no se entregue otro:
 4. En el lado derecho, construir una jerarquía vertical clara:
    - `FELIZ`;
    - `CUMPLEAÑOS`;
-   - nombre del estudiante;
+   - nombre del estudiante si fue proporcionado;
    - mensaje corto.
 5. Dejar aire real entre bloques. No llenar todo el lienzo con decoración.
 6. La fotografía debe integrarse con bordes limpios, escala plausible, sombra/contacto coherente y sin halo de recorte.
+7. **No reinterpretar la plantilla en cada solicitud.** Si el usuario solo cambia la foto, mantener estructura, jerarquía, lenguaje pixel/voxel, paleta y proporciones generales de esta composición.
 
 ### Fondo
 
 **Primera propuesta por defecto:** fondo **Amarillo Septiembre `#FFD749`** con tipografía/estructura principal en **Púrpura Oscuro `#602B7A`**.
 
-También puede invertirse a fondo púrpura con amarillo como acento si el contraste de la fotografía lo exige, pero la primera propuesta es amarilla.
+También puede invertirse a fondo púrpura con amarillo como acento si el contraste de la fotografía lo exige o el usuario lo pide, pero la primera propuesta es amarilla.
 
 Acentos permitidos:
 
@@ -79,7 +104,7 @@ Jerarquía recomendada:
 
 - `FELIZ`: Montserrat ExtraBold/Black, púrpura o blanco según fondo.
 - `CUMPLEAÑOS`: Montserrat ExtraBold/Black, gran escala; puede tener una sombra física mínima o offset plano de marca, nunca glow.
-- `{{student_name}}`: Montserrat Bold dentro de una banda/pastilla simple o bloque editorial.
+- `{{student_name}}`: Montserrat Bold dentro de una banda/pastilla simple o bloque editorial cuando exista.
 - `{{birthday_message}}`: Montserrat Medium/SemiBold, máximo 4–5 líneas.
 
 No usar una fuente “Minecraft” como tipografía institucional ni para el logo.
@@ -96,14 +121,14 @@ Si la herramienta generativa no puede garantizar el logo/tipografía exactos, ge
 
 ## Prompt maestro de generación
 
-> Crear una pieza vertical 4:5 de cumpleaños para Algorithmics, dirigida como por un diseñador senior humano. Usar como protagonista la fotografía real proporcionada de `{{student_photo}}`, conservar exactamente su fisonomía, edad aparente, cabello, tono de piel, ropa, proporciones y gesto; no reemplazar el rostro ni reinterpretar al estudiante. No es necesario sentarlo: respetar la pose natural de la fotografía y ubicarlo como ancla visual en el tercio izquierdo, con escala creíble y recorte profesional. Fondo dominante Amarillo Septiembre Algorithmics `#FFD749`, con estructura Púrpura Oscuro `#602B7A`, acentos puntuales Menta Fresca `#33DFC0` y Frambuesa `#F44C75`. Crear una composición editorial asimétrica y limpia, con aire, no una plantilla centrada. En el lado derecho reservar jerarquía para `FELIZ CUMPLEAÑOS`, `{{student_name}}` y el mensaje `{{birthday_message}}`. Incorporar un lenguaje pixel/voxel sutil relacionado con creación digital: pequeños corazones, pastel, sombrero, símbolos de código, bloques o criaturas abstractas propias, sin copiar Minecraft/Roblox ni otras IP. Puede existir lettering pixel como textura/acento de fondo, pero la tipografía principal debe ser Montserrat ExtraBold/Bold/Medium. La fotografía debe conservar piel natural, textura real, luz coherente, sombras físicas y bordes sin halos. Evitar estética de IA: glow/neón, piel plástica, ojos artificialmente brillantes, fondos sci-fi, objetos 3D aleatorios, exceso de confeti, hologramas, UI flotante y simetría automática. La pieza debe sentirse festiva, creativa, tecnológica y Algorithmics, con una sola idea dominante: celebrar al estudiante dentro de un universo de creación digital. No generar ni reconstruir el logo; dejar zona limpia para insertar el asset oficial en edición.
+> Crear una pieza vertical 4:5 de cumpleaños para Algorithmics, dirigida como por un diseñador senior humano. Usar como protagonista la fotografía real proporcionada de `{{student_photo}}`, conservar exactamente su fisonomía, edad aparente, cabello, tono de piel, ropa, proporciones y gesto; no reemplazar el rostro ni reinterpretar al estudiante. No es necesario sentarlo: respetar la pose natural de la fotografía y ubicarlo como ancla visual en el tercio izquierdo, con escala creíble y recorte profesional. Fondo dominante Amarillo Septiembre Algorithmics `#FFD749`, con estructura Púrpura Oscuro `#602B7A`, acentos puntuales Menta Fresca `#33DFC0` y Frambuesa `#F44C75`. Crear una composición editorial asimétrica y limpia, con aire, no una plantilla centrada. En el lado derecho reservar jerarquía para `FELIZ CUMPLEAÑOS`, `{{student_name}}` solo si fue proporcionado, y el mensaje `{{birthday_message}}`. Incorporar un lenguaje pixel/voxel sutil relacionado con creación digital: pequeños corazones, pastel, sombrero, símbolos de código, bloques o criaturas abstractas propias, sin copiar Minecraft/Roblox ni otras IP. Puede existir lettering pixel como textura/acento de fondo, pero la tipografía principal debe ser Montserrat ExtraBold/Bold/Medium. La fotografía debe conservar piel natural, textura real, luz coherente, sombras físicas y bordes sin halos. Evitar estética de IA: glow/neón, piel plástica, ojos artificialmente brillantes, fondos sci-fi, objetos 3D aleatorios, exceso de confeti, hologramas, UI flotante y simetría automática. La pieza debe sentirse festiva, creativa, tecnológica y Algorithmics, con una sola idea dominante: celebrar al estudiante dentro de un universo de creación digital. No generar ni reconstruir el logo; dejar zona limpia para insertar el asset oficial en edición.
 
 ## Texto sugerido de arte
 
 **FELIZ**  
 **CUMPLEAÑOS**
 
-`{{student_name}}`
+`{{student_name}}` — solo si fue proporcionado
 
 `{{birthday_message}}`
 
@@ -119,6 +144,7 @@ Si la herramienta generativa no puede garantizar el logo/tipografía exactos, ge
 - llenar espacios con objetos pixel sin función;
 - sustituir Montserrat por una fuente pixel en todo el diseño;
 - deformar o recrear el logo;
+- inventar el nombre del estudiante;
 - publicar nombre completo, edad u otros datos si no están autorizados.
 
 ## Quality gate
@@ -134,6 +160,7 @@ Antes de entregar:
 - [ ] ¿Hay aire y jerarquía clara?
 - [ ] ¿La pieza evita señales típicas de IA?
 - [ ] ¿El logo se insertará desde asset oficial?
+- [ ] ¿No se inventó ningún dato variable?
 - [ ] ¿Los datos personales y la fotografía tienen alcance de uso autorizado?
 
 ## Privacidad
