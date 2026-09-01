@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "algorithmics-campaign-semana-de-pijama",
+  "title": "Semana de Pijama",
+  "brand": "Algorithmics",
+  "status": "APPROVED",
+  "scope": "CAMPAIGN",
+  "version": "1.0.0",
+  "approved_on": "2026-09-01",
+  "source_note": "Composición aprobada por el usuario después de una creación inicial y dos ediciones quirúrgicas: sustitución del fondo por el púrpura oficial, eliminación del logotipo superior y reemplazo del estudiante izquierdo conservando el resto de la pieza.",
+  "objective": "Promocionar una semana temática dentro de las clases regulares de Algorithmics e invitar a los estudiantes a asistir con su pijama favorita, comunicando premios sorpresa y emojis para la cartilla.",
+  "audience": {
+    "primary": "Estudiantes actuales de Algorithmics",
+    "secondary": "Padres, madres y responsables",
+    "tone": [
+      "alegre",
+      "cercano",
+      "juvenil",
+      "educativo",
+      "divertido con propósito"
+    ]
+  },
+  "format": {
+    "channel": "Instagram feed",
+    "width_px": 1080,
+    "height_px": 1350,
+    "aspect_ratio": "4:5",
+    "orientation": "vertical"
+  },
+  "temporal_data": {
+    "date_copy": "Del 7 al 12 de septiembre",
+    "approval": "APPROVED_FOR_THIS_CAMPAIGN_ONLY",
+    "reuse_policy": "PENDING_VERIFICATION",
+    "instruction": "Antes de reutilizar la plantilla en otro año o sede, confirmar fecha, horario, beneficios y condiciones con una fuente operativa vigente."
+  },
+  "approved_copy": {
+    "headline": "SEMANA DE PIJAMA",
+    "subheadline": "Asiste con tu pijama favorita a clases",
+    "benefit_1": "Premios sorpresa",
+    "benefit_2": "Emojis para tu cartilla",
+    "date": "Del 7 al 12 de septiembre"
+  },
+  "brand_system": {
+    "colors": {
+      "purple_primary": "#602B7A",
+      "yellow_accent": "#FFD749",
+      "mint_accent": "#33DFC0",
+      "raspberry_optional": "#F44C75",
+      "neutrals": [
+        "#FFFFFF",
+        "#000000"
+      ]
+    },
+    "color_rule": "El fondo dominante debe usar exactamente #602B7A. Amarillo y menta funcionan como acentos. No aproximar el púrpura ni sustituirlo por lavanda, azul o gradientes ajenos.",
+    "typography": {
+      "primary": "Montserrat",
+      "headline_treatment": "Display de campaña de alto impacto, redondeado y acolchado, con textura de costura. Debe conservar una construcción limpia y legible; subtítulos, beneficios y fecha permanecen en Montserrat."
+    },
+    "logo": {
+      "visible_in_artwork": false,
+      "rule_scope": "CAMPAIGN",
+      "note": "La ausencia del logotipo superior es una decisión aprobada para esta pieza y no modifica la regla global de uso del logo."
+    }
+  },
+  "concept": {
+    "statement": "Comunica una semana de clases en pijama mediante un montaje nocturno, acogedor y tecnológico con tres estudiantes reales que se divierten mientras conservan la presencia de sus laptops de Algorithmics.",
+    "dominant_idea": "Aprender y divertirse en clase también puede sentirse como una pijamada.",
+    "visual_metaphor": "Una pijamada tecnológica dentro del universo de Algorithmics."
+  },
+  "composition": {
+    "structure": [
+      "Una estudiante de mayor escala en el centro y dos estudiantes de menor escala en los laterales inferiores.",
+      "Luna amplia detrás de la estudiante central para crear profundidad y foco.",
+      "Nubes y cojines en el primer plano para construir el ambiente de pijamada.",
+      "Headline grande en el tercio inferior: 'SEMANA DE' en blanco y 'PIJAMA' en amarillo acolchado.",
+      "Subheadline inmediatamente debajo del headline, con 'pijama favorita' resaltado en menta.",
+      "Tres cojines informativos en la base: premios, emojis y fecha.",
+      "Doodles de código, estrellas y emojis como elementos secundarios; nunca deben competir con los estudiantes ni el headline.",
+      "Zona superior limpia, sin logotipo."
+    ],
+    "hierarchy": [
+      "estudiantes",
+      "headline",
+      "subheadline",
+      "beneficios",
+      "fecha",
+      "decoración secundaria"
+    ],
+    "depth": {
+      "background": "Púrpura oficial con doodles y estrellas de baja prioridad.",
+      "midground": "Luna, nubes y cojines.",
+      "foreground": "Estudiantes, laptops, headline y cojines informativos."
+    }
+  },
+  "subjects": {
+    "privacy_classification": "RESTRICTED",
+    "repository_policy": "Las fotografías de estudiantes menores no forman parte de este archivo ni deben subirse al repositorio público sin autorización expresa para ese alcance.",
+    "center_student": {
+      "asset_slot": "{{center_student_photo}}",
+      "role": "protagonista central",
+      "wardrobe": "pijama lila con vivo blanco",
+      "pose": "sentada, mirando a cámara, sonrisa natural, laptop al frente",
+      "identity_lock": "Conservar fisonomía, edad aparente, cabello, tono de piel y rasgos."
+    },
+    "left_student": {
+      "asset_slot": "{{left_student_photo}}",
+      "role": "estudiante lateral izquierdo",
+      "wardrobe": "pijama azul marino con patrón espacial",
+      "pose": "sentado, pulgar arriba, sonrisa natural, laptop al frente",
+      "identity_lock": "Conservar fisonomía, edad aparente, cabello, tono de piel y rasgos."
+    },
+    "right_student": {
+      "asset_slot": "{{right_student_photo}}",
+      "role": "estudiante lateral derecho",
+      "wardrobe": "pijama rosada con patrón sutil",
+      "pose": "sentada, gesto de idea con un dedo cerca de la sien, sonrisa natural, laptop al frente",
+      "identity_lock": "Conservar fisonomía, edad aparente, cabello, tono de piel y rasgos."
+    }
+  },
+  "asset_slots": {
+    "composition_reference": "{{composition_reference}}",
+    "purple_swatch_reference": "{{purple_swatch_reference}}",
+    "center_student_photo": "{{center_student_photo}}",
+    "left_student_photo": "{{left_student_photo}}",
+    "right_student_photo": "{{right_student_photo}}",
+    "note": "Las rutas son marcadores. Cada ejecución debe recibir archivos autorizados y disponibles en el entorno de producción; no reemplazar fotografías reales por rostros genéricos."
+  },
+  "locked_elements": [
+    "Formato vertical 4:5.",
+    "Fondo púrpura exacto #602B7A.",
+    "Composición con una estudiante central grande y dos estudiantes laterales.",
+    "Luna, nubes, estrellas, cojines, doodles de código y emojis.",
+    "Headline, subheadline, beneficios y fecha aprobados.",
+    "Jerarquía y posiciones generales.",
+    "Pijamas y laptops como parte de la escena.",
+    "Zona superior sin logotipo.",
+    "Fisonomía de cada estudiante de referencia."
+  ],
+  "allowed_variables": [
+    "Fotografías autorizadas de los tres estudiantes, manteniendo rol, escala y pose equivalentes.",
+    "Fecha, horario, sede y beneficios únicamente después de verificación vigente.",
+    "Pequeños ajustes de recorte, balance de color, nitidez y sombras para integrar las fotografías."
+  ],
+  "prohibited": [
+    "Subir fotografías de menores al repositorio sin autorización explícita para uso público.",
+    "Cambiar rostros, edad aparente o identidad de los estudiantes.",
+    "Usar piel plástica, ojos artificiales, cabello sintético o sonrisas genéricas.",
+    "Usar un morado aproximado, lavanda como fondo principal o gradientes neón.",
+    "Añadir un logotipo reconstruido o un logo nuevo en la zona superior.",
+    "Rediseñar el layout al ejecutar una corrección puntual.",
+    "Mover textos o elementos no mencionados durante una sustitución de estudiante.",
+    "Añadir objetos 3D, partículas, glow o UI flotante sin función.",
+    "Deformar manos, laptops, perspectiva, sombras u oclusiones.",
+    "Mostrar datos personales en pantallas o incorporar nombres completos de menores."
+  ],
+  "generation_request": {
+    "reference_image_paths": [
+      "{{composition_reference}}",
+      "{{purple_swatch_reference}}",
+      "{{center_student_photo}}",
+      "{{left_student_photo}}",
+      "{{right_student_photo}}"
+    ],
+    "aspect_ratio": "4:5",
+    "transparent_background": false,
+    "prompt": "Diseña un post vertical 4:5 para la campaña 'Semana de Pijama' de Algorithmics. Usa la referencia de composición solo como guía de montaje: una estudiante de mayor escala al centro y dos estudiantes de menor escala en los laterales inferiores, dentro de un ambiente nocturno de pijamada con luna, nubes, cojines y estrellas. No copies el tono de fiesta nocturna de la referencia; conviértelo en una actividad escolar alegre, acogedora y tecnológica. Usa exactamente el púrpura de la muestra como fondo dominante (#602B7A), con acentos funcionales en amarillo #FFD749, menta #33DFC0 y blanco. Conserva fielmente la fisonomía de los tres estudiantes reales. Vístelos con pijamas naturales: lila para la protagonista central, azul marino con patrón espacial para el estudiante izquierdo y rosado sutil para la estudiante derecha. Mantén laptops negras con geometría, manos, perspectiva y sombras físicamente creíbles. La protagonista central mira a cámara con sonrisa natural; el estudiante izquierdo hace pulgar arriba; la estudiante derecha realiza un gesto de idea con un dedo cerca de la sien. Construye profundidad con luna detrás del sujeto central, nubes y cojines en primer plano; integra doodles pequeños de código, estrellas y emojis como acentos secundarios. No coloques logotipo en la zona superior. Texto exacto y legible: 'SEMANA DE PIJAMA'; 'Asiste con tu pijama favorita a clases'; 'Premios sorpresa'; 'Emojis para tu cartilla'; 'Del 7 al 12 de septiembre'. Trata 'PIJAMA' como lettering amarillo acolchado con detalle de costura; usa Montserrat en el resto. Mantén jerarquía móvil clara, acabado editorial profesional, piel natural, cabello realista y montaje sin halos. Evita neón, glow, gradientes AI-tech, fondos sci-fi, simetría automática, objetos flotantes sin propósito y cualquier apariencia genérica de IA."
+  },
+  "surgical_edit_requests": {
+    "change_purple_and_remove_logo": {
+      "purpose": "Corregir el color de fondo y retirar el logo sin rediseñar.",
+      "prompt": "Edita la pieza aprobada. Sustituye únicamente el púrpura del fondo y del entorno secundario por el color exacto de la muestra: #602B7A. Elimina por completo el logotipo superior y rellena esa zona con continuidad natural del fondo. Mantén sin cambios los tres estudiantes, rostros, pijamas, laptops, luna, nubes, estrellas, doodles, cojines, textos, tipografía, posiciones, escala, iluminación y composición. No introduzcas elementos nuevos ni redistribuyas el layout."
+    },
+    "replace_left_student": {
+      "purpose": "Sustituir al estudiante izquierdo mediante edición quirúrgica.",
+      "prompt": "Edita la pieza aprobada y reemplaza únicamente al estudiante del lado izquierdo por la persona de la nueva fotografía de referencia. Conserva fielmente su fisonomía, edad aparente, cabello, tono de piel y expresión. Mantén el gesto de pulgar arriba y vístelo con pijama azul marino de patrón espacial, sentado con laptop en la misma posición, escala, perspectiva, iluminación y sombras del estudiante anterior. Todo lo demás queda bloqueado: no alteres a las dos estudiantes, textos, colores, fondo #602B7A, luna, nubes, estrellas, doodles, cojines, fecha, tipografía, jerarquía ni la zona superior sin logotipo."
+    }
+  },
+  "quality_gate": [
+    "La pieza mide 1080 × 1350 px o conserva proporción 4:5.",
+    "El fondo dominante coincide con #602B7A.",
+    "La zona superior no contiene logotipo.",
+    "Los cinco textos aprobados están completos, correctamente escritos y legibles en móvil.",
+    "Los tres estudiantes conservan su identidad y edad aparente.",
+    "Las pijamas se integran de forma natural y no alteran anatomía.",
+    "Manos, dedos, laptops, bisagras, perspectiva y oclusiones son físicamente creíbles.",
+    "No hay halos de recorte ni bordes de sticker en cabello o ropa.",
+    "Luz, temperatura, sombras y nitidez son coherentes entre sujetos y fondo.",
+    "Los doodles y emojis funcionan como acentos y no compiten con el headline.",
+    "La tecnología aparece dentro de la escena y no como código flotante decorativo.",
+    "No hay datos personales en pantallas ni nombres de menores.",
+    "No se usaron neón, glow, gradientes AI-tech ni objetos sin función.",
+    "Al reutilizar la plantilla, fecha y beneficios fueron verificados nuevamente."
+  ],
+  "privacy": {
+    "visual_asset_persistence": false,
+    "reason": "La pieza usa fotografías de menores. Este archivo conserva únicamente el prompt, la composición y las reglas de edición; no incorpora ni publica los originales."
+  }
+}
