@@ -24,6 +24,7 @@ Cuando una campaña tenga un **master visual aprobado**, el master visual tiene 
 - `campaigns/future-coders.md`: dirección adolescente, programación + IA sutil.
 - `campaigns/tech-kids-open-house.md`: estudiantes + proyectos + aire para Open House/Tech Kids.
 - `campaigns/belief-vs-skills-carousel.md`: prejuicio/percepción → habilidad/evidencia para comunicación con padres.
+- `campaigns/semana-de-pijama.json`: master de campaña aprobado para post 4:5 con tres estudiantes reales en pijama, fondo púrpura oficial, montaje nocturno, laptops y edición quirúrgica; las fotografías permanecen fuera del repositorio y las fechas deben volver a verificarse.
 - `campaigns/birthday-greeting.md`: **primera propuesta por defecto para cumpleaños Algorithmics**. Antes de generar debe cargar `examples/approved/birthday-template-v1.svg` como master visual obligatorio. Por defecto **solo cambian FOTO + NOMBRE**; fondo, headline, mensaje, posiciones, banda de nombre, caja de mensaje, pixel terrain, iconos, paleta y jerarquía quedan bloqueados salvo instrucción explícita. Si el usuario sube una foto y pide “feliz cumpleaños Algorithmics”, activar directamente este flujo sin volver a pedir composición, color o estilo.
 
 ### Masters visuales aprobados
